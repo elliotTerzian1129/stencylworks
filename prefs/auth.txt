@@ -1,0 +1,2 @@
+global.password=c9bcf256dadcbbb78d4c3fa69b25db11c929a512
+global.user=Eterzian1914

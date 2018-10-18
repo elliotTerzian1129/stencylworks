@@ -1,0 +1,217 @@
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: Logfile: C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\logs\2018-10-08_12-03-00.log
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: OS Name: Windows 10
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: OS Version: 10.0 (64-bit)
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: Java Home Environment Variable (JAVA_HOME): not set
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: Stencyl Version: 3.4.0.beta4 (b9300)
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\Users\Eterzian1914\AppData\Roaming\Stencyl\
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: User Working Directory: C:\Program Files (x86)\Stencyl
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\Eterzian1914
+2018-10-08 12:03:00,823 INFO  [main] stencyl.sw.Session: System Path: C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Users\Eterzian1914\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Stencyl\runtimes\jre-win\bin
+2018-10-08 12:03:00,885 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\ETERZI~1\AppData\Local\Temp\stencyl6181206419539208505
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2018-10-08 12:03:00,901 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2018-10-08 12:03:00,916 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2018-10-08 12:03:00,932 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2018-10-08 12:03:00,948 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2018-10-08 12:03:00,948 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2018-10-08 12:03:00,948 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2018-10-08 12:03:00,948 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2018-10-08 12:03:01,666 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Extension Dependencies: {STENCYL={=stencyl--3.4.0.beta4}, HAXELIB={console=haxelib-console-1.0.0, polygonal-printf=haxelib-polygonal-printf-1.0.0.beta, stencyl-cppia=haxelib-stencyl-cppia-1.0.0, hxcpp=haxelib-hxcpp-3.2.0, swf=haxelib-swf-1.7.4, box2d=haxelib-box2d-1.11.0, svg=haxelib-svg-1.0.8, lime=haxelib-lime-2.9.1, format=haxelib-format-3.1.2, actuate=haxelib-actuate-1.8.6, stencyl=haxelib-stencyl-1.0.0, layout=haxelib-layout-1.1.0, hxtelemetry=haxelib-hxtelemetry-0.3.1, openfl=haxelib-openfl-3.6.1, tilelayer=haxelib-tilelayer-0.2.1, polygonal-ds=haxelib-polygonal-ds-1.4.1, box2d-fake=haxelib-box2d-fake-1.11.0}, JAVA={=java--1.8.0}, ENGINE={}, TOOLSET={}}
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\extensions: []
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\extensions: []
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions: [C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gestures, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\google, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\joystick, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\label, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-flash, C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native]
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: ads is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: gamecenter is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: gestures is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: google is not a valid engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: joystick is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: label is engine extension: Labels (1.0.0).
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: native is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: purchases is a core engine extension. Skip.
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test is engine extension: Test Extension (1.0.0).
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test-flash is engine extension: Test Extension (Flash SWF) (1.0.0).
+2018-10-08 12:03:01,666 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test-native is engine extension: Test Extension (Native) (1.0.0).
+2018-10-08 12:03:01,666 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: [Labels (1.0.0), Test Extension (1.0.0), Test Extension (Flash SWF) (1.0.0), Test Extension (Native) (1.0.0)]
+2018-10-08 12:03:01,682 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2018-10-08 12:03:01,869 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2018-10-08 12:03:01,869 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Silent Authentication.
+2018-10-08 12:03:01,885 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2018-10-08 12:03:01,963 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: user:::plans0
+2018-10-08 12:03:01,963 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\prefs\auth.txt
+2018-10-08 12:03:01,979 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Logged in as: Eterzian1914
+2018-10-08 12:03:01,979 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Usergroup: Registered
+2018-10-08 12:03:02,088 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: 200
+2018-10-08 12:03:07,285 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl6181206419539208505\sandbox\test\temp
+2018-10-08 12:03:07,301 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2018-10-08 12:03:07,301 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Roaming\Stencyl\stencylworks\preview\game
+2018-10-08 12:03:07,301 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: Platformer E
+2018-10-08 12:03:07,332 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 0
+2018-10-08 12:03:07,332 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 2
+2018-10-08 12:03:07,332 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 4
+2018-10-08 12:03:07,348 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 2 : Diver
+2018-10-08 12:03:07,348 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 3 : Diver
+2018-10-08 12:03:07,363 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 0 : Underwater Set
+2018-10-08 12:03:07,379 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 1 : UNDERWATER SET
+2018-10-08 12:03:07,379 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 4 : Unhappy Pufferfish
+2018-10-08 12:03:07,379 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 5 : Unhappy Pufferfish
+2018-10-08 12:03:07,473 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:07,473 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:07,551 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-10-08 12:03:07,551 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl6181206419539208505\sandbox\build\code
+2018-10-08 12:03:07,551 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl6181206419539208505\sandbox\test\temp
+2018-10-08 12:03:07,551 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:07,582 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Took 281ms
+2018-10-08 12:03:07,832 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Y
+2018-10-08 12:03:07,848 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero X
+2018-10-08 12:03:07,894 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-10-08 12:03:07,894 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-10-08 12:03:07,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-10-08 12:03:07,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-10-08 12:03:07,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-10-08 12:03:08,332 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 0
+2018-10-08 12:03:08,332 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Underwater Set' to atlas 0
+2018-10-08 12:03:08,332 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'UNDERWATER SET' to atlas 0
+2018-10-08 12:03:08,332 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Diver' to atlas 0
+2018-10-08 12:03:08,332 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Unhappy Pufferfish' to atlas 0
+2018-10-08 12:03:08,347 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 1
+2018-10-08 12:03:08,347 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 2
+2018-10-08 12:03:08,347 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 3
+2018-10-08 12:03:08,363 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:08,394 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Y
+2018-10-08 12:03:08,410 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero X
+2018-10-08 12:03:08,426 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-10-08 12:03:08,426 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-10-08 12:03:08,426 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-10-08 12:03:08,426 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-10-08 12:03:08,426 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-10-08 12:03:08,644 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:54,327 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Loading Closed Resource: Death Sound Diver
+2018-10-08 12:03:54,358 DEBUG [pool-1-thread-1] stencyl.sw.editors.sound.SoundInfoPanel: Could not load sound info. (Ignore for new sounds or OGG sounds)
+2018-10-08 12:03:54,373 DEBUG [pool-1-thread-1] stencyl.sw.editors.sound.SoundInfoPanel: Could not load sound info. (Ignore for new sounds or OGG sounds)
+2018-10-08 12:03:54,404 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Death Sound Diver
+2018-10-08 12:03:54,467 DEBUG [pool-1-thread-1] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-10-08 12:03:54,467 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.OpenResourceTask: Open Took 140ms
+2018-10-08 12:03:54,514 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenResourceTask: Total Took 187ms
+2018-10-08 12:11:00,383 DEBUG [AWT-EventQueue-0] stencyl.sw.SW: Dragged In: C:\Users\Eterzian1914\AppData\Local\Packages\microsoft.microsoftedge_8wekyb3d8bbwe\AC\#!001\MicrosoftEdge\Cache\651WLVLT\play_200x200[1].png
+2018-10-08 12:11:00,399 ERROR [AWT-EventQueue-0] stencyl.sw.SW: Invalid byte 2 of 2-byte UTF-8 sequence.
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1743)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.arrangeCapacity(XMLEntityScanner.java:1614)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipString(XMLEntityScanner.java:1652)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:196)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at stencyl.sw.util.FileHelper.readXMLFromStream(FileHelper.java:786)
+	at stencyl.sw.util.FileHelper.readXMLFromBase64String(FileHelper.java:747)
+	at stencyl.sw.SW.dropImage(SW.java:1537)
+	at stencyl.sw.SW.handleDrop(SW.java:1500)
+	at stencyl.sw.SW$5.filesDropped(SW.java:748)
+	at misc.comp.FileDrop$1.drop(FileDrop.java:335)
+	at java.awt.dnd.DropTarget.drop(DropTarget.java:455)
+	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:538)
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:852)
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:776)
+	at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+	at java.awt.Component.dispatchEventImpl(Component.java:4746)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4599)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4461)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)

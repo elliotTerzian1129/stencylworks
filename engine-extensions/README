@@ -1,0 +1,36 @@
+====================================
+HOW TO BUILD AN EXTENSION
+====================================
+
+====================================
+STEP 1
+====================================
+
+cd into the "project" directory for each extension
+
+====================================
+STEP 2
+====================================
+
+Run this to build the extension for the Simulator and Device, respectively.
+
+haxelib run hxcpp Build.xml -Diphonesim
+haxelib run hxcpp Build.xml -Diphoneos
+haxelib run hxcpp Build.xml -Diphoneos -DHXCPP_ARMV7
+haxelib run hxcpp Build.xml -Diphoneos -DHXCPP_ARM64
+
+====================================
+STEP 3
+====================================
+
+Add an entry for the extension to extensions.xml to include it in your projects.
+
+<extension folder="ads" name="Ads" author="Jon" platforms="ios,android" />
+
+In the future, this file will let you define custom settings pages for your extension.
+
+====================================
+STEP 4
+====================================
+
+Once an extension is linked, you can use it from code.
