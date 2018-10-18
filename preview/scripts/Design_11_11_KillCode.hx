@@ -69,26 +69,26 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_2 extends ActorScript
+class Design_11_11_KillCode extends ActorScript
 {
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addActorTypeGroupPositionListener(getActorType(2).ID, function(a:Actor, enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && exitedScreen)
 			{
-				Engine.engine.setGameAttribute("Hero X", actor.getX());
-				Engine.engine.setGameAttribute("Hero Y", actor.getY());
+				recycleActor(a);
 			}
 		});
 		
