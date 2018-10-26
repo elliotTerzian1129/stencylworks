@@ -13,8 +13,16 @@ import scripts.Design_9_9_Movement;
 import scripts.Design_10_10_JumpandRunMovement;
 import scripts.Design_11_11_KillCode;
 import scripts.SceneEvents_1;
-import scripts.ActorEvents_15;
 import scripts.Design_15_15_Pace;
+import scripts.SceneEvents_2;
+import scripts.ActorEvents_20;
+import scripts.ActorEvents_22;
+import scripts.ActorEvents_24;
+import scripts.ActorEvents_26;
+import scripts.SceneEvents_3;
+import scripts.SceneEvents_4;
+import scripts.SceneEvents_5;
+import scripts.ActorEvents_28;
 
 
 //Force all classes to compile since they aren't statically used.

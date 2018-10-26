@@ -82,42 +82,19 @@ class ActorEvents_15 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		while(actor.isAlive())
-		{
-			actor.setXVelocity(-10);
-			if((actor.getScreenX() == 0))
-			{
-				actor.setXVelocity(10);
-			}
-		}
-		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.getXVelocity() == 10))
+				if((actor.getAnimation() == "Animation 0"))
 				{
-					actor.setAnimation("" + "Animation 1");
+					actor.setXVelocity(-12);
 				}
-				else if((actor.getXVelocity() == -10))
+				else if((actor.getAnimation() == "Animation 1"))
 				{
-					actor.setAnimation("" + "Animation 0");
+					actor.setXVelocity(12);
 				}
-				else
-				{
-					actor.setAnimation("" + "Animation 0");
-				}
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(2), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(event.otherActor);
 			}
 		});
 		

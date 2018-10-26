@@ -15,7 +15,7 @@ class MyAssets implements AssetLoader
 	public static var scaleMode:Int = Universal.NO_SCALING;
 	public static var stageWidth:Int = 640;
 	public static var stageHeight:Int = 480;
-	public static var initSceneID:Int = 0;
+	public static var initSceneID:Int = 5;
 	public static var physicsMode:Int = 0;
 	public static var gameScale:Float = 1.0;
 	public static var gameImageBase:String = "1x";
@@ -61,7 +61,7 @@ class MyAssets implements AssetLoader
 	public function loadResources(resourceMap:Map<String,Dynamic>):Void
 	{
 		var i = 0;
-		var increment = 50.0 / Math.max(1, 14);
+		var increment = 50.0 / Math.max(1, 23);
 		
 		resourceMap.set("0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/tileset-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
@@ -82,19 +82,38 @@ class MyAssets implements AssetLoader
 		resourceMap.set("11.fnt", Assets.getText("assets/graphics/" + Engine.IMG_BASE + "/font-11.fnt"));
 		resourceMap.set("11.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/font-11.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
-		resourceMap.set("16-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-16-0.png", false));
-		resourceMap.set("16-1.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-16-1.png", false));
+		resourceMap.set("21-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-21-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("23-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-23-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("25-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-25-0.png", false));
+		resourceMap.set("25-1.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-25-1.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("27-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-27-0.png", false));
+		resourceMap.set("27-1.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-27-1.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("29-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-29-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("30-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/background-30-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
 	}
 	
 	public function loadScenes(scenesXML:Map<Int,String>):Void
 	{
 		var i = 0;
-		var increment = 10.0 / Math.max(1, 2);
+		var increment = 10.0 / Math.max(1, 6);
 		
 		scenesXML.set(0, "Scene");
 		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
 		scenesXML.set(1, "Scene 2");
+		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
+		scenesXML.set(2, "Scene 3");
+		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
+		scenesXML.set(3, "Scene 4");
+		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
+		scenesXML.set(4, "Scene 5 Boss");
+		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
+		scenesXML.set(5, "Notes");
 		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
 	}
 }

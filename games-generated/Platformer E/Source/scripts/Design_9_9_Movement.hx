@@ -73,6 +73,7 @@ class Design_9_9_Movement extends ActorScript
 {
 	public var _WalkSpeed:Float;
 	public var _WalkSpeedY:Float;
+	public var _Jump:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
@@ -83,6 +84,8 @@ class Design_9_9_Movement extends ActorScript
 		_WalkSpeed = 0.0;
 		nameMap.set("Walk Speed Y", "_WalkSpeedY");
 		_WalkSpeedY = 0.0;
+		nameMap.set("Jump", "_Jump");
+		_Jump = 0;
 		
 	}
 	
@@ -108,11 +111,21 @@ class Design_9_9_Movement extends ActorScript
 				}
 				else if((_WalkSpeedY == 2))
 				{
-					actor.setYVelocity(-10);
-					runLater(1000 * 0.6, function(timeTask:TimedTask):Void
+					if((_Jump == 0))
 					{
-						actor.pushInDirection(180, 10);
-					}, actor);
+						actor.setYVelocity(-30);
+						_Jump = asNumber(1);
+						propertyChanged("_Jump", _Jump);
+						runLater(1000 * 1.5, function(timeTask:TimedTask):Void
+						{
+							actor.pushInDirection(180, 10);
+						}, actor);
+						runLater(1000 * 1, function(timeTask:TimedTask):Void
+						{
+							_Jump = asNumber(0);
+							propertyChanged("_Jump", _Jump);
+						}, actor);
+					}
 				}
 				else
 				{

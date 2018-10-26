@@ -30,6 +30,10 @@ class ApplicationMain {
 		var types = [];
 		
 		
+		urls.push ("assets/graphics/1.5x/background-30-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/1.5x/font-10.fnt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -46,11 +50,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/1.5x/sprite-16-0.png");
+		urls.push ("assets/graphics/1.5x/sprite-21-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/1.5x/sprite-16-1.png");
+		urls.push ("assets/graphics/1.5x/sprite-23-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-25-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-25-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-27-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-27-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-29-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -90,6 +114,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/1x/background-30-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/1x/font-10.fnt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -106,11 +134,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/1x/sprite-16-0.png");
+		urls.push ("assets/graphics/1x/sprite-21-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/1x/sprite-16-1.png");
+		urls.push ("assets/graphics/1x/sprite-23-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-25-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-25-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-27-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-27-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-29-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -150,6 +198,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/2x/background-30-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/2x/font-10.fnt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -166,11 +218,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/2x/sprite-16-0.png");
+		urls.push ("assets/graphics/2x/sprite-21-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/2x/sprite-16-1.png");
+		urls.push ("assets/graphics/2x/sprite-23-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-25-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-25-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-27-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-27-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-29-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -210,6 +282,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/3x/background-30-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/3x/font-10.fnt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -226,11 +302,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/3x/sprite-16-0.png");
+		urls.push ("assets/graphics/3x/sprite-21-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/3x/sprite-16-1.png");
+		urls.push ("assets/graphics/3x/sprite-23-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-25-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-25-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-27-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-27-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-29-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -270,6 +366,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/4x/background-30-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/4x/font-10.fnt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -286,11 +386,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/4x/sprite-16-0.png");
+		urls.push ("assets/graphics/4x/sprite-21-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/graphics/4x/sprite-16-1.png");
+		urls.push ("assets/graphics/4x/sprite-23-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-25-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-25-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-27-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-27-1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-29-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -439,6 +559,38 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/data/scene-1.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/data/scene-2.scn");
+		types.push (lime.Assets.AssetType.BINARY);
+		
+		
+		urls.push ("assets/data/scene-2.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/data/scene-3.scn");
+		types.push (lime.Assets.AssetType.BINARY);
+		
+		
+		urls.push ("assets/data/scene-3.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/data/scene-4.scn");
+		types.push (lime.Assets.AssetType.BINARY);
+		
+		
+		urls.push ("assets/data/scene-4.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/data/scene-5.scn");
+		types.push (lime.Assets.AssetType.BINARY);
+		
+		
+		urls.push ("assets/data/scene-5.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		

@@ -78,8 +78,7 @@ class SceneEvents_0 extends SceneScript
 	/* ========================= Custom Event ========================= */
 	public function _customEvent_PointUp():Void
 	{
-		_Points = asNumber((_Points + 1));
-		propertyChanged("_Points", _Points);
+		Engine.engine.setGameAttribute("Points", (Engine.engine.getGameAttribute("Points") + 1));
 	}
 	
 	
@@ -103,19 +102,17 @@ class SceneEvents_0 extends SceneScript
 			{
 				g.setFont(getFont(10));
 				g.drawString("" + "Points", 26, 31);
-				g.drawString("" + _Points, 127, 31);
+				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
 				if((_Death == 1))
 				{
 					g.setFont(getFont(11));
 					g.drawString("" + "Game Over", 237, 232);
-					_Points = asNumber(0);
-					propertyChanged("_Points", _Points);
 				}
 			}
 		});
 		
 		/* =========================== Keyboard =========================== */
-		addKeyStateListener("action1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		addKeyStateListener("enter", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled && pressed)
 			{

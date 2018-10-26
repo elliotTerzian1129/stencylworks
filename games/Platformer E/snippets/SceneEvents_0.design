@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="2" id="0">
-        <draw comment="false" x="15" y="15">
+        <draw comment="false" x="121" y="66">
             <group eventID="2" id="-1">
-                <set-font-new comment="false" x="26" y="40">
+                <set-font-new comment="false" x="132" y="91">
                     <font eid="10" id="0"/>
                 </set-font-new>
-                <draw-text comment="false" x="26" y="67">
+                <draw-text comment="false" x="132" y="118">
                     <int id="0" val="Points"/>
                     <int id="1" val="26"/>
                     <int id="2" val="31"/>
                 </draw-text>
-                <draw-text comment="false" x="26" y="87">
-                    <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                <draw-text comment="false" x="132" y="138">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="127"/>
                     <int id="2" val="31"/>
                 </draw-text>
-                <if comment="false" x="26" y="112">
+                <if comment="false" x="132" y="163">
                     <group eventID="2" id="-1">
-                        <set-font-new comment="false" x="37" y="142">
+                        <set-font-new comment="false" x="143" y="193">
                             <font eid="11" id="0"/>
                         </set-font-new>
-                        <draw-text comment="false" x="37" y="169">
+                        <draw-text comment="false" x="143" y="220">
                             <int id="0" val="Game Over"/>
                             <int id="1" val="237"/>
                             <int id="2" val="232"/>
                         </draw-text>
-                        <set-val-0-1 comment="false" x="37" y="189">
-                            <int id="0" val="0"/>
-                        </set-val-0-1>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-val-0-2 comment="false" id="0" x="0" y="0"/>
@@ -40,14 +37,14 @@
     </group>
     <group eventID="2" id="-1"/>
     <group eventID="3" id="0">
-        <event-custom comment="false" x="15" y="15">
+        <event-custom comment="false" x="72" y="21">
             <group eventID="3" id="-1">
-                <set-val-0-1 comment="false" x="26" y="40">
+                <set-game-val-3 comment="false" x="83" y="46">
                     <plus comment="false" id="0" x="0" y="0">
-                        <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </plus>
-                </set-val-0-1>
+                </set-game-val-3>
             </group>
             <int id="0" val="PointUp"/>
         </event-custom>
@@ -66,14 +63,14 @@
     </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
-        <event-key-press-release comment="false" x="15" y="15">
+        <event-key-press-release comment="false" x="31" y="5">
             <group eventID="5" id="-1">
-                <play-sound4 comment="false" x="26" y="42">
+                <play-sound4 comment="false" x="42" y="32">
                     <int id="0" val="0"/>
                     <sound eid="12" id="1"/>
                 </play-sound4>
             </group>
-            <control eid="4" id="0"/>
+            <control eid="6" id="0"/>
             <int id="1" val="0"/>
         </event-key-press-release>
     </group>

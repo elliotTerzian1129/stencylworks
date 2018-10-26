@@ -86,7 +86,7 @@ class Design_8_8_PointUp extends SceneScript
 	{
 		super();
 		nameMap.set("Points", "_Points");
-		_Points = 0;
+		_Points = 0.0;
 		
 	}
 	

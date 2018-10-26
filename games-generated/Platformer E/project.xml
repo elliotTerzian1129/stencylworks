@@ -142,7 +142,7 @@
 	</section>
 	
 	<setenv name="PRERENDERED_ICON" value="true" />
-	<setenv name="IPHONE_STDOUT" value="C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8918416706339762687\scratch\ios-sim.log" />
+	<setenv name="IPHONE_STDOUT" value="C:\Users\Eterzian1914\AppData\Local\Temp\stencyl6720098937795691517\scratch\ios-sim.log" />
 	
 	<section if="cppia">
 		

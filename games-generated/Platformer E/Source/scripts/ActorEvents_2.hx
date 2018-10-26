@@ -92,6 +92,15 @@ class ActorEvents_2 extends ActorScript
 			}
 		});
 		
+		/* ======================== Specific Actor ======================== */
+		addWhenKilledListener(actor, function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				Engine.engine.setGameAttribute("D Death", 1);
+			}
+		});
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{

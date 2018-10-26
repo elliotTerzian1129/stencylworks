@@ -72,16 +72,64 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_1 extends SceneScript
 {
+	public var _Points:Float;
+	public var _Death:Float;
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_PointUp():Void
+	{
+		Engine.engine.setGameAttribute("Points", (Engine.engine.getGameAttribute("Points") + 1));
+	}
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("Points", "_Points");
+		_Points = 0.0;
+		nameMap.set("Death", "_Death");
+		_Death = 0.0;
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(10));
+				g.drawString("" + "Points", 26, 31);
+				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
+				if((_Death == 1))
+				{
+					g.setFont(getFont(11));
+					g.drawString("" + "Game Over", 237, 232);
+					Engine.engine.setGameAttribute("Points", 0);
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addWhenTypeGroupKilledListener(getActorType(2), function(eventActor:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				_Death = asNumber(1);
+				propertyChanged("_Death", _Death);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(2), a))
+			{
+				switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+			}
+		});
 		
 	}
 	
