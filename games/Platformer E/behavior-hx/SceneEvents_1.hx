@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,45 +70,64 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_26 extends ActorScript
+class SceneEvents_1 extends SceneScript
 {
+	public var _Points:Float;
+	public var _Death:Float;
 	
-	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_PointUp():Void
 	{
-		super(actor);
+		Engine.engine.setGameAttribute("Points", (Engine.engine.getGameAttribute("Points") + 1));
+	}
+	
+	
+	public function new(dummy:Int, dummy2:Engine)
+	{
+		super();
+		nameMap.set("Points", "_Points");
+		_Points = 0.0;
+		nameMap.set("Death", "_Death");
+		_Death = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(2), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				if((actor.getAnimation() == "Animation 0"))
+				g.setFont(getFont(10));
+				g.drawString("" + "Points", 26, 31);
+				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
+				if((_Death == 1))
 				{
-					recycleActor(actor);
-					Engine.engine.setGameAttribute("Time Points", (Engine.engine.getGameAttribute("Time Points") + 1));
+					g.setFont(getFont(11));
+					g.drawString("" + "Game Over", 237, 232);
+					Engine.engine.setGameAttribute("Points", 0);
 				}
 			}
 		});
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addWhenTypeGroupKilledListener(getActorType(2), function(eventActor:Actor, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("Lever Activation") == 1))
-				{
-					actor.setAnimation("" + "Animation 0");
-				}
-				else
-				{
-					actor.setAnimation("" + "Animation 1");
-				}
+				_Death = asNumber(1);
+				propertyChanged("_Death", _Death);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(2), a))
+			{
+				switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 			}
 		});
 		

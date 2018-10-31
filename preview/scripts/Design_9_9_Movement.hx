@@ -85,7 +85,7 @@ class Design_9_9_Movement extends ActorScript
 		nameMap.set("Walk Speed Y", "_WalkSpeedY");
 		_WalkSpeedY = 0.0;
 		nameMap.set("Jump", "_Jump");
-		_Jump = 0;
+		_Jump = 0.0;
 		
 	}
 	

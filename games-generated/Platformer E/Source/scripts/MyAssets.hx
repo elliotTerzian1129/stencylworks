@@ -15,7 +15,7 @@ class MyAssets implements AssetLoader
 	public static var scaleMode:Int = Universal.NO_SCALING;
 	public static var stageWidth:Int = 640;
 	public static var stageHeight:Int = 480;
-	public static var initSceneID:Int = 5;
+	public static var initSceneID:Int = 2;
 	public static var physicsMode:Int = 0;
 	public static var gameScale:Float = 1.0;
 	public static var gameImageBase:String = "1x";
@@ -61,7 +61,7 @@ class MyAssets implements AssetLoader
 	public function loadResources(resourceMap:Map<String,Dynamic>):Void
 	{
 		var i = 0;
-		var increment = 50.0 / Math.max(1, 23);
+		var increment = 50.0 / Math.max(1, 30);
 		
 		resourceMap.set("0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/tileset-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
@@ -95,6 +95,14 @@ class MyAssets implements AssetLoader
 		resourceMap.set("29-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-29-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
 		resourceMap.set("30-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/background-30-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("32-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-32-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("33-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/background-33-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("35-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-35-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("37-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-37-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
 	}
 	

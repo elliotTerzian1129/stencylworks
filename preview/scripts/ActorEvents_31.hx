@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,73 +69,53 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_2 extends SceneScript
+class ActorEvents_31 extends ActorScript
 {
-	public var _Death:Float;
+	public var _Hero:Actor;
 	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_PointUp5():Void
+	
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		Engine.engine.setGameAttribute("Points", (Engine.engine.getGameAttribute("Points") + 5));
-	}
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_PointUp():Void
-	{
-		Engine.engine.setGameAttribute("Points", (Engine.engine.getGameAttribute("Points") + 1));
-	}
-	
-	
-	public function new(dummy:Int, dummy2:Engine)
-	{
-		super();
-		nameMap.set("Death", "_Death");
-		_Death = 0.0;
+		super(actor);
+		nameMap.set("Hero", "_Hero");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((Engine.engine.getGameAttribute("Secret") == 1))
-				{
-					setTileAt(Std.int(17),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(18),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(19),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(20),Std.int(28),1,"" + "0",0,52);
-				}
-			}
-		});
+		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("Boss health", 3);
 		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.setFont(getFont(10));
-				g.drawString("" + "Points", 26, 31);
-				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
-				if((_Death == 1))
+				if(event.otherFromBottom)
 				{
-					g.setFont(getFont(11));
-					g.drawString("" + "Game Over", 237, 232);
-					Engine.engine.setGameAttribute("Points", 0);
+					Engine.engine.setGameAttribute("Boss health", (Engine.engine.getGameAttribute("Boss health") - 1));
 				}
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addWhenTypeGroupKilledListener(getActorType(2), function(eventActor:Actor, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				_Death = asNumber(1);
-				propertyChanged("_Death", _Death);
+				else if(event.otherFromTop)
+				{
+					recycleActor(getLastCreatedActor());
+				}
+				else
+				{
+					event.otherActor.setXVelocity(-30);
+					runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+					{
+						event.otherActor.setXVelocity(-20);
+					}, actor);
+					runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+					{
+						event.otherActor.setXVelocity(-10);
+					}, actor);
+					runLater(1000 * 0.3, function(timeTask:TimedTask):Void
+					{
+						event.otherActor.setXVelocity(0);
+					}, actor);
+				}
 			}
 		});
 		
@@ -145,20 +124,10 @@ class SceneEvents_2 extends SceneScript
 		{
 			if(wrapper.enabled)
 			{
-				engine.cameraFollow(getActor(7));
-			}
-		});
-		
-		/* ======================== Specific Actor ======================== */
-		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAs(getActor(7), a))
-			{
-				getActor(7).fadeTo(0, 1, Elastic.easeOut);
-				runLater(1000 * 2, function(timeTask:TimedTask):Void
+				if((Engine.engine.getGameAttribute("Boss health") <= 0))
 				{
-					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
-				}, null);
+					recycleActor(actor);
+				}
 			}
 		});
 		

@@ -10,11 +10,13 @@
     <terrainRegions/>
     <actors>
         <actor a="0.0" aid="1" c="false" group="3" id="31" name="Rock Boss 1" sx="1.0" sy="1.0" x="565" y="318" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="2" name="Diver 2" sx="1.0" sy="1.0" x="-2" y="350" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="36" name="Start Button 3" sx="1.0" sy="1.0" x="194" y="187" z="0"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,640.0,96.0,0.0,96.0,0.0,0.0,640.0,0.0" x="0.0" y="384.0"/>
         <p pts="4,640.0,0.0,640.0,128.0,0.0,128.0,0.0,0.0" x="0.0" y="0.0"/>
+        <p pts="4,640.0,96.0,0.0,96.0,0.0,0.0,640.0,0.0" x="0.0" y="384.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

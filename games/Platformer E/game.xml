@@ -76,6 +76,7 @@
         <number cid="-1" id="1" name="Hero Y" save="true" value="0.0"/>
         <number cid="-1" id="3" name="Points" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Hero X" save="true" value="0.0"/>
+        <number cid="-1" id="8" name="Hero Number" save="true" value="0.0"/>
         <number cid="-1" id="4" name="Lever Activation" save="true" value="0.0"/>
         <number cid="-1" id="2" name="D Death" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Time Points" save="true" value="0.0"/>
@@ -109,7 +110,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,7,8,10,11,12,18,20,22,24,26,28,30,31,33," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,7,8,10,11,12,18,20,22,24,26,28,30,31,33,34,36," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

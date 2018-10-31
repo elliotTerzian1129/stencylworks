@@ -69,13 +69,15 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_2 extends ActorScript
+class ActorEvents_20 extends ActorScript
 {
+	public var _Diver:Actor;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Diver", "_Diver");
 		
 	}
 	
@@ -87,58 +89,9 @@ class ActorEvents_2 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				Engine.engine.setGameAttribute("Hero X", actor.getX());
-				Engine.engine.setGameAttribute("Hero Y", actor.getY());
-			}
-		});
-		
-		/* ======================== Specific Actor ======================== */
-		addWhenKilledListener(actor, function(list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				Engine.engine.setGameAttribute("D Death", 1);
-			}
-		});
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((actor.getYVelocity() == -10))
+				if((actor.getX() == Engine.engine.getGameAttribute("Hero X")))
 				{
-					actor.setAnimation("" + "Jumping");
-				}
-				else if((actor.getXVelocity() == 10))
-				{
-					if((actor.getAnimation() == "Jumping"))
-					{
-						actor.setAnimation("" + "Jumping");
-					}
-					else
-					{
-						actor.setAnimation("" + "Running");
-					}
-				}
-				else if((actor.getXVelocity() == -10))
-				{
-					if((actor.getAnimation() == "Jumping"))
-					{
-						actor.setAnimation("" + "Jumping Left");
-					}
-					else
-					{
-						actor.setAnimation("" + "Running Left");
-					}
-				}
-				else if((actor.getYVelocity() == 10))
-				{
-					actor.setAnimation("" + "Normal");
-				}
-				else
-				{
-					actor.setAnimation("" + "Normal");
+					actor.applyImpulse((Engine.engine.getGameAttribute("Hero X") - actor.getX()), (Engine.engine.getGameAttribute("Hero Y") - actor.getY()), 8);
 				}
 			}
 		});

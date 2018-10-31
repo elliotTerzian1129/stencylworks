@@ -142,4 +142,41 @@
         </event-actor-create-kill>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-fric-bounce comment="false" x="37" y="85">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-fric-bounce>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <collision-left comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-left>
+                        <collision-right comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-right>
+                    </or>
+                </if>
+                <else comment="false" x="26" y="124">
+                    <group eventID="4" id="-1">
+                        <set-fric-bounce comment="false" x="37" y="144">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </set-fric-bounce>
+                    </group>
+                </else>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>

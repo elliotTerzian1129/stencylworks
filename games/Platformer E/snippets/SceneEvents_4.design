@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <step comment="false" x="15" y="15">
+        <event-actor-create-kill comment="false" x="25" y="20">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="40">
-                    <group eventID="1" id="-1"/>
-                    <collision-top comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="0"/>
-                    </collision-top>
-                </if>
+                <set-dxy comment="false" x="36" y="47">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="30"/>
+                </set-dxy>
             </group>
-        </step>
+            <int id="0" val="0"/>
+            <ACTOR eid="2" id="1"/>
+        </event-actor-create-kill>
     </group>
     <group eventID="1" id="-1"/>
 </groups>

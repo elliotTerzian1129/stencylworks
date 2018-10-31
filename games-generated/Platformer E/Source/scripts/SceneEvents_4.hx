@@ -83,6 +83,15 @@ class SceneEvents_4 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== Specific Actor ======================== */
+		addWhenCreatedListener(getActor(2), function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				getLastCreatedActor().setXVelocity(30);
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)

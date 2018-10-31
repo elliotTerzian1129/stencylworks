@@ -71,11 +71,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class ActorEvents_2 extends ActorScript
 {
+	public var _Hero:Actor;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Hero", "_Hero");
 		
 	}
 	
@@ -139,6 +141,22 @@ class ActorEvents_2 extends ActorScript
 				else
 				{
 					actor.setAnimation("" + "Normal");
+				}
+			}
+		});
+		
+		/* ======================= Member of Group ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if((event.thisFromLeft || event.thisFromRight))
+				{
+					actor.setFriction(0);
+				}
+				else
+				{
+					actor.setFriction(1);
 				}
 			}
 		});

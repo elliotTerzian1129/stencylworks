@@ -23,6 +23,9 @@ import scripts.SceneEvents_3;
 import scripts.SceneEvents_4;
 import scripts.SceneEvents_5;
 import scripts.ActorEvents_28;
+import scripts.ActorEvents_31;
+import scripts.ActorEvents_34;
+import scripts.ActorEvents_36;
 
 
 //Force all classes to compile since they aren't statically used.
