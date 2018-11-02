@@ -15,7 +15,7 @@ class MyAssets implements AssetLoader
 	public static var scaleMode:Int = Universal.NO_SCALING;
 	public static var stageWidth:Int = 640;
 	public static var stageHeight:Int = 480;
-	public static var initSceneID:Int = 2;
+	public static var initSceneID:Int = 4;
 	public static var physicsMode:Int = 0;
 	public static var gameScale:Float = 1.0;
 	public static var gameImageBase:String = "1x";

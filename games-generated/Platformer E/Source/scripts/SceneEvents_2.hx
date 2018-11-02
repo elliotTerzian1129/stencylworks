@@ -162,6 +162,19 @@ class SceneEvents_2 extends SceneScript
 			}
 		});
 		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(7), a))
+			{
+				getActor(7).fadeTo(0, 1, Elastic.easeOut);
+				runLater(1000 * 2, function(timeTask:TimedTask):Void
+				{
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+				}, null);
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)

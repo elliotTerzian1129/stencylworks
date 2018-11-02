@@ -58,13 +58,16 @@
         <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
-        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
-        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
-        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
-        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
-        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
-        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
-        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="0" keyname="UP" name="Up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="Down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="Left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="Right" vk="39" vks="39"/>
+        <key id="4" keyname="SHIFT" name="Action 1" vk="16" vks="16"/>
+        <key id="5" keyname="K" name="Action 2" vk="75" vks="75"/>
+        <key id="6" keyname="ENTER" name="Enter" vk="10" vks="10"/>
+        <key id="7" keyname="P" name="Sound Toggle" vk="80" vks="80"/>
+        <key id="8" keyname="E" name="Pause" vk="69" vks="69"/>
+        <key id="9" keyname="Q" name="Back" vk="81" vks="81"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -78,8 +81,10 @@
         <number cid="-1" id="0" name="Hero X" save="true" value="0.0"/>
         <number cid="-1" id="8" name="Hero Number" save="true" value="0.0"/>
         <number cid="-1" id="4" name="Lever Activation" save="true" value="0.0"/>
+        <number cid="-1" id="10" name="pause_scene" save="true" value="0.0"/>
         <number cid="-1" id="2" name="D Death" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Time Points" save="true" value="0.0"/>
+        <number cid="-1" id="9" name="Scene Number" save="true" value="0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -110,7 +115,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,7,8,10,11,12,18,20,22,24,26,28,30,31,33,34,36," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,7,8,10,11,12,18,20,22,24,26,28,30,31,33,34,36,38," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

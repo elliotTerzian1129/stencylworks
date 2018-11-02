@@ -83,10 +83,10 @@ class SceneEvents_4 extends SceneScript
 	override public function init()
 	{
 		
-		/* ======================== Specific Actor ======================== */
-		addWhenCreatedListener(getActor(2), function(list:Array<Dynamic>):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(getActor(3), function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && 5 == mouseState)
 			{
 				getLastCreatedActor().setXVelocity(30);
 			}
