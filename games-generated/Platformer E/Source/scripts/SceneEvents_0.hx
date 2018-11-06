@@ -111,8 +111,22 @@ class SceneEvents_0 extends SceneScript
 			}
 		});
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("pause_scene") == 1))
+				{
+					engine.pause();
+					switchScene(GameModel.get().scenes.get(6).getID(), createBlindsOut(0.5, Utils.getColorRGB(0,0,0)), createBlindsIn(0.5, Utils.getColorRGB(0,0,0)));
+					Engine.engine.setGameAttribute("pause_scene", 0);
+				}
+			}
+		});
+		
 		/* =========================== Keyboard =========================== */
-		addKeyStateListener("enter", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		addKeyStateListener("Enter", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled && pressed)
 			{

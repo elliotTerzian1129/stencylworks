@@ -26,6 +26,10 @@ import scripts.ActorEvents_28;
 import scripts.ActorEvents_31;
 import scripts.ActorEvents_34;
 import scripts.ActorEvents_36;
+import scripts.Design_28_28_AdvancedControls;
+import scripts.ActorEvents_38;
+import scripts.SceneEvents_6;
+import scripts.ActorEvents_40;
 
 
 //Force all classes to compile since they aren't statically used.

@@ -72,11 +72,14 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_4 extends SceneScript
 {
+	public var _Death:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("Death", "_Death");
+		_Death = 0.0;
 		
 	}
 	
@@ -89,6 +92,36 @@ class SceneEvents_4 extends SceneScript
 			if(wrapper.enabled && 5 == mouseState)
 			{
 				getLastCreatedActor().setXVelocity(30);
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("pause_scene") == 1))
+				{
+					engine.pause();
+					switchScene(GameModel.get().scenes.get(6).getID(), createBlindsOut(0.5, Utils.getColorRGB(0,0,0)), createBlindsIn(0.5, Utils.getColorRGB(0,0,0)));
+					Engine.engine.setGameAttribute("pause_scene", 0);
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(10));
+				g.drawString("" + "Points", 26, 31);
+				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
+				if((_Death == 1))
+				{
+					g.setFont(getFont(11));
+					g.drawString("" + "Game Over", 237, 232);
+				}
 			}
 		});
 		

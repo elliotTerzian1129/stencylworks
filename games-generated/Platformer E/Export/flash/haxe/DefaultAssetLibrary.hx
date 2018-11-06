@@ -214,6 +214,18 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		#end
 		
 		#if flash
@@ -262,6 +274,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1.5x/sprite-35-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1.5x/sprite-37-0.png", __ASSET__assets_graphics_1_5x_sprite_37_0_png);
 		type.set ("assets/graphics/1.5x/sprite-37-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/1.5x/sprite-39-0.png", __ASSET__assets_graphics_1_5x_sprite_39_0_png);
+		type.set ("assets/graphics/1.5x/sprite-39-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/1.5x/sprite-41-0.png", __ASSET__assets_graphics_1_5x_sprite_41_0_png);
+		type.set ("assets/graphics/1.5x/sprite-41-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1.5x/sprite-5-0.png", __ASSET__assets_graphics_1_5x_sprite_5_0_png);
 		type.set ("assets/graphics/1.5x/sprite-5-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1.5x/sprite-9-0.png", __ASSET__assets_graphics_1_5x_sprite_9_0_png);
@@ -312,6 +328,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-35-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1x/sprite-37-0.png", __ASSET__assets_graphics_1x_sprite_37_0_png);
 		type.set ("assets/graphics/1x/sprite-37-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/1x/sprite-39-0.png", __ASSET__assets_graphics_1x_sprite_39_0_png);
+		type.set ("assets/graphics/1x/sprite-39-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/1x/sprite-41-0.png", __ASSET__assets_graphics_1x_sprite_41_0_png);
+		type.set ("assets/graphics/1x/sprite-41-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1x/sprite-5-0.png", __ASSET__assets_graphics_1x_sprite_5_0_png);
 		type.set ("assets/graphics/1x/sprite-5-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/1x/sprite-9-0.png", __ASSET__assets_graphics_1x_sprite_9_0_png);
@@ -362,6 +382,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/2x/sprite-35-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/2x/sprite-37-0.png", __ASSET__assets_graphics_2x_sprite_37_0_png);
 		type.set ("assets/graphics/2x/sprite-37-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/2x/sprite-39-0.png", __ASSET__assets_graphics_2x_sprite_39_0_png);
+		type.set ("assets/graphics/2x/sprite-39-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/2x/sprite-41-0.png", __ASSET__assets_graphics_2x_sprite_41_0_png);
+		type.set ("assets/graphics/2x/sprite-41-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/2x/sprite-5-0.png", __ASSET__assets_graphics_2x_sprite_5_0_png);
 		type.set ("assets/graphics/2x/sprite-5-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/2x/sprite-9-0.png", __ASSET__assets_graphics_2x_sprite_9_0_png);
@@ -412,6 +436,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/3x/sprite-35-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/3x/sprite-37-0.png", __ASSET__assets_graphics_3x_sprite_37_0_png);
 		type.set ("assets/graphics/3x/sprite-37-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/3x/sprite-39-0.png", __ASSET__assets_graphics_3x_sprite_39_0_png);
+		type.set ("assets/graphics/3x/sprite-39-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/3x/sprite-41-0.png", __ASSET__assets_graphics_3x_sprite_41_0_png);
+		type.set ("assets/graphics/3x/sprite-41-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/3x/sprite-5-0.png", __ASSET__assets_graphics_3x_sprite_5_0_png);
 		type.set ("assets/graphics/3x/sprite-5-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/3x/sprite-9-0.png", __ASSET__assets_graphics_3x_sprite_9_0_png);
@@ -462,6 +490,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/4x/sprite-35-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/4x/sprite-37-0.png", __ASSET__assets_graphics_4x_sprite_37_0_png);
 		type.set ("assets/graphics/4x/sprite-37-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/4x/sprite-39-0.png", __ASSET__assets_graphics_4x_sprite_39_0_png);
+		type.set ("assets/graphics/4x/sprite-39-0.png", AssetType.IMAGE);
+		className.set ("assets/graphics/4x/sprite-41-0.png", __ASSET__assets_graphics_4x_sprite_41_0_png);
+		type.set ("assets/graphics/4x/sprite-41-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/4x/sprite-5-0.png", __ASSET__assets_graphics_4x_sprite_5_0_png);
 		type.set ("assets/graphics/4x/sprite-5-0.png", AssetType.IMAGE);
 		className.set ("assets/graphics/4x/sprite-9-0.png", __ASSET__assets_graphics_4x_sprite_9_0_png);
@@ -540,6 +572,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/scene-5.scn", AssetType.BINARY);
 		className.set ("assets/data/scene-5.xml", __ASSET__assets_data_scene_5_xml);
 		type.set ("assets/data/scene-5.xml", AssetType.TEXT);
+		className.set ("assets/data/scene-6.scn", __ASSET__assets_data_scene_6_scn);
+		type.set ("assets/data/scene-6.scn", AssetType.BINARY);
+		className.set ("assets/data/scene-6.xml", __ASSET__assets_data_scene_6_xml);
+		type.set ("assets/data/scene-6.xml", AssetType.TEXT);
 		className.set ("assets/data/scenes.xml", __ASSET__assets_data_scenes_xml);
 		type.set ("assets/data/scenes.xml", AssetType.TEXT);
 		
@@ -632,6 +668,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "assets/graphics/1.5x/sprite-37-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/1.5x/sprite-39-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/1.5x/sprite-41-0.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -735,6 +779,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/1x/sprite-39-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/1x/sprite-41-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "assets/graphics/1x/sprite-5-0.png";
 		path.set (id, id);
 		
@@ -832,6 +884,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "assets/graphics/2x/sprite-37-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/2x/sprite-39-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/2x/sprite-41-0.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -935,6 +995,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/3x/sprite-39-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/3x/sprite-41-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "assets/graphics/3x/sprite-5-0.png";
 		path.set (id, id);
 		
@@ -1032,6 +1100,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "assets/graphics/4x/sprite-37-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/4x/sprite-39-0.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/graphics/4x/sprite-41-0.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -1191,6 +1267,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/data/scene-6.scn";
+		path.set (id, id);
+		
+		type.set (id, AssetType.BINARY);
+		id = "assets/data/scene-6.xml";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/data/scenes.xml";
 		path.set (id, id);
 		
@@ -1279,6 +1363,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/graphics/1.5x/sprite-37-0.png", __ASSET__assets_graphics_1_5x_sprite_37_0_png);
 		type.set ("assets/graphics/1.5x/sprite-37-0.png", AssetType.IMAGE);
 		
+		className.set ("assets/graphics/1.5x/sprite-39-0.png", __ASSET__assets_graphics_1_5x_sprite_39_0_png);
+		type.set ("assets/graphics/1.5x/sprite-39-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/1.5x/sprite-41-0.png", __ASSET__assets_graphics_1_5x_sprite_41_0_png);
+		type.set ("assets/graphics/1.5x/sprite-41-0.png", AssetType.IMAGE);
+		
 		className.set ("assets/graphics/1.5x/sprite-5-0.png", __ASSET__assets_graphics_1_5x_sprite_5_0_png);
 		type.set ("assets/graphics/1.5x/sprite-5-0.png", AssetType.IMAGE);
 		
@@ -1353,6 +1443,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/graphics/1x/sprite-37-0.png", __ASSET__assets_graphics_1x_sprite_37_0_png);
 		type.set ("assets/graphics/1x/sprite-37-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/1x/sprite-39-0.png", __ASSET__assets_graphics_1x_sprite_39_0_png);
+		type.set ("assets/graphics/1x/sprite-39-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/1x/sprite-41-0.png", __ASSET__assets_graphics_1x_sprite_41_0_png);
+		type.set ("assets/graphics/1x/sprite-41-0.png", AssetType.IMAGE);
 		
 		className.set ("assets/graphics/1x/sprite-5-0.png", __ASSET__assets_graphics_1x_sprite_5_0_png);
 		type.set ("assets/graphics/1x/sprite-5-0.png", AssetType.IMAGE);
@@ -1429,6 +1525,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/graphics/2x/sprite-37-0.png", __ASSET__assets_graphics_2x_sprite_37_0_png);
 		type.set ("assets/graphics/2x/sprite-37-0.png", AssetType.IMAGE);
 		
+		className.set ("assets/graphics/2x/sprite-39-0.png", __ASSET__assets_graphics_2x_sprite_39_0_png);
+		type.set ("assets/graphics/2x/sprite-39-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/2x/sprite-41-0.png", __ASSET__assets_graphics_2x_sprite_41_0_png);
+		type.set ("assets/graphics/2x/sprite-41-0.png", AssetType.IMAGE);
+		
 		className.set ("assets/graphics/2x/sprite-5-0.png", __ASSET__assets_graphics_2x_sprite_5_0_png);
 		type.set ("assets/graphics/2x/sprite-5-0.png", AssetType.IMAGE);
 		
@@ -1504,6 +1606,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/graphics/3x/sprite-37-0.png", __ASSET__assets_graphics_3x_sprite_37_0_png);
 		type.set ("assets/graphics/3x/sprite-37-0.png", AssetType.IMAGE);
 		
+		className.set ("assets/graphics/3x/sprite-39-0.png", __ASSET__assets_graphics_3x_sprite_39_0_png);
+		type.set ("assets/graphics/3x/sprite-39-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/3x/sprite-41-0.png", __ASSET__assets_graphics_3x_sprite_41_0_png);
+		type.set ("assets/graphics/3x/sprite-41-0.png", AssetType.IMAGE);
+		
 		className.set ("assets/graphics/3x/sprite-5-0.png", __ASSET__assets_graphics_3x_sprite_5_0_png);
 		type.set ("assets/graphics/3x/sprite-5-0.png", AssetType.IMAGE);
 		
@@ -1578,6 +1686,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/graphics/4x/sprite-37-0.png", __ASSET__assets_graphics_4x_sprite_37_0_png);
 		type.set ("assets/graphics/4x/sprite-37-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/4x/sprite-39-0.png", __ASSET__assets_graphics_4x_sprite_39_0_png);
+		type.set ("assets/graphics/4x/sprite-39-0.png", AssetType.IMAGE);
+		
+		className.set ("assets/graphics/4x/sprite-41-0.png", __ASSET__assets_graphics_4x_sprite_41_0_png);
+		type.set ("assets/graphics/4x/sprite-41-0.png", AssetType.IMAGE);
 		
 		className.set ("assets/graphics/4x/sprite-5-0.png", __ASSET__assets_graphics_4x_sprite_5_0_png);
 		type.set ("assets/graphics/4x/sprite-5-0.png", AssetType.IMAGE);
@@ -1695,6 +1809,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/scene-5.xml", __ASSET__assets_data_scene_5_xml);
 		type.set ("assets/data/scene-5.xml", AssetType.TEXT);
+		
+		className.set ("assets/data/scene-6.scn", __ASSET__assets_data_scene_6_scn);
+		type.set ("assets/data/scene-6.scn", AssetType.BINARY);
+		
+		className.set ("assets/data/scene-6.xml", __ASSET__assets_data_scene_6_xml);
+		type.set ("assets/data/scene-6.xml", AssetType.TEXT);
 		
 		className.set ("assets/data/scenes.xml", __ASSET__assets_data_scenes_xml);
 		type.set ("assets/data/scenes.xml", AssetType.TEXT);
@@ -2365,6 +2485,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_32_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_35_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_37_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_39_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_41_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_5_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_sprite_9_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1_5x_tileset_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2390,6 +2512,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_32_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_35_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_37_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_39_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_41_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_5_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_sprite_9_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_1x_tileset_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2415,6 +2539,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_32_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_35_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_37_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_39_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_41_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_5_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_sprite_9_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_2x_tileset_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2440,6 +2566,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_32_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_35_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_37_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_39_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_41_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_5_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_sprite_9_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_3x_tileset_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2465,6 +2593,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_32_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_35_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_37_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_39_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_41_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_5_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_sprite_9_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_4x_tileset_0_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2504,10 +2634,24 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_data_scene_4_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_scene_5_scn extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_scene_5_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_data_scene_6_scn extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_data_scene_6_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_scenes_xml extends flash.utils.ByteArray { }
 
 
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2702,6 +2846,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("Assets/graphics/1.5x/sprite-32-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_32_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1.5x/sprite-35-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_35_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1.5x/sprite-37-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_37_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/1.5x/sprite-39-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_39_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/1.5x/sprite-41-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_41_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1.5x/sprite-5-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_5_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1.5x/sprite-9-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_sprite_9_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1.5x/tileset-0.png") #if display private #end class __ASSET__assets_graphics_1_5x_tileset_0_png extends lime.graphics.Image {}
@@ -2727,6 +2873,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("Assets/graphics/1x/sprite-32-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_32_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1x/sprite-35-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_35_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1x/sprite-37-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_37_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/1x/sprite-39-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_39_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/1x/sprite-41-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_41_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1x/sprite-5-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_5_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1x/sprite-9-0.png") #if display private #end class __ASSET__assets_graphics_1x_sprite_9_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/1x/tileset-0.png") #if display private #end class __ASSET__assets_graphics_1x_tileset_0_png extends lime.graphics.Image {}
@@ -2752,6 +2900,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("Assets/graphics/2x/sprite-32-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_32_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/2x/sprite-35-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_35_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/2x/sprite-37-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_37_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/2x/sprite-39-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_39_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/2x/sprite-41-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_41_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/2x/sprite-5-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_5_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/2x/sprite-9-0.png") #if display private #end class __ASSET__assets_graphics_2x_sprite_9_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/2x/tileset-0.png") #if display private #end class __ASSET__assets_graphics_2x_tileset_0_png extends lime.graphics.Image {}
@@ -2777,6 +2927,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("Assets/graphics/3x/sprite-32-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_32_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/3x/sprite-35-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_35_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/3x/sprite-37-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_37_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/3x/sprite-39-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_39_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/3x/sprite-41-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_41_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/3x/sprite-5-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_5_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/3x/sprite-9-0.png") #if display private #end class __ASSET__assets_graphics_3x_sprite_9_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/3x/tileset-0.png") #if display private #end class __ASSET__assets_graphics_3x_tileset_0_png extends lime.graphics.Image {}
@@ -2802,6 +2954,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("Assets/graphics/4x/sprite-32-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_32_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/4x/sprite-35-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_35_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/4x/sprite-37-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_37_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/4x/sprite-39-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_39_0_png extends lime.graphics.Image {}
+@:image("Assets/graphics/4x/sprite-41-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_41_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/4x/sprite-5-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_5_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/4x/sprite-9-0.png") #if display private #end class __ASSET__assets_graphics_4x_sprite_9_0_png extends lime.graphics.Image {}
 @:image("Assets/graphics/4x/tileset-0.png") #if display private #end class __ASSET__assets_graphics_4x_tileset_0_png extends lime.graphics.Image {}
@@ -2841,6 +2995,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("Assets/data/scene-4.xml") #if display private #end class __ASSET__assets_data_scene_4_xml extends lime.utils.Bytes {}
 @:file("Assets/data/scene-5.scn") #if display private #end class __ASSET__assets_data_scene_5_scn extends lime.utils.Bytes {}
 @:file("Assets/data/scene-5.xml") #if display private #end class __ASSET__assets_data_scene_5_xml extends lime.utils.Bytes {}
+@:file("Assets/data/scene-6.scn") #if display private #end class __ASSET__assets_data_scene_6_scn extends lime.utils.Bytes {}
+@:file("Assets/data/scene-6.xml") #if display private #end class __ASSET__assets_data_scene_6_xml extends lime.utils.Bytes {}
 @:file("Assets/data/scenes.xml") #if display private #end class __ASSET__assets_data_scenes_xml extends lime.utils.Bytes {}
 
 

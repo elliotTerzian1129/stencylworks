@@ -98,21 +98,6 @@ class SceneEvents_2 extends SceneScript
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((Engine.engine.getGameAttribute("Secret") == 1))
-				{
-					setTileAt(Std.int(17),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(18),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(19),Std.int(28),1,"" + "0",0,52);
-					setTileAt(Std.int(20),Std.int(28),1,"" + "0",0,52);
-				}
-			}
-		});
-		
 		/* ========================= When Drawing ========================= */
 		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
@@ -140,15 +125,6 @@ class SceneEvents_2 extends SceneScript
 			}
 		});
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				engine.cameraFollow(getActor(7));
-			}
-		});
-		
 		/* ======================== Specific Actor ======================== */
 		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
 		{
@@ -172,6 +148,44 @@ class SceneEvents_2 extends SceneScript
 				{
 					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}, null);
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				engine.cameraFollow(getActor(7));
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("pause_scene") == 1))
+				{
+					engine.pause();
+					switchScene(GameModel.get().scenes.get(6).getID(), createBlindsOut(0.5, Utils.getColorRGB(0,0,0)), createBlindsIn(0.5, Utils.getColorRGB(0,0,0)));
+					Engine.engine.setGameAttribute("pause_scene", 0);
+				}
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("Secret") == 1))
+				{
+					setTileAt(Std.int(17),Std.int(28),1,"" + "0",0,52);
+					setTileAt(Std.int(18),Std.int(28),1,"" + "0",0,52);
+					setTileAt(Std.int(19),Std.int(28),1,"" + "0",0,52);
+					setTileAt(Std.int(20),Std.int(28),1,"" + "0",0,52);
+				}
 			}
 		});
 		

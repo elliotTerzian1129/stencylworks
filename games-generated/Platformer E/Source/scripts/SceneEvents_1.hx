@@ -112,6 +112,34 @@ class SceneEvents_1 extends SceneScript
 			}
 		});
 		
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(getActor(5), function(mouseState:Int, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && 5 == mouseState)
+			{
+				if((getCurrentSceneName() == "Scene"))
+				{
+					Engine.engine.setGameAttribute("Scene Number", 1);
+				}
+				else if((getCurrentSceneName() == "Scene 2"))
+				{
+					Engine.engine.setGameAttribute("Scene Number", 2);
+				}
+				else if((getCurrentSceneName() == "Scene 3"))
+				{
+					Engine.engine.setGameAttribute("Scene Number", 3);
+				}
+				else if((getCurrentSceneName() == "Scene 4"))
+				{
+					Engine.engine.setGameAttribute("Scene Number", 4);
+				}
+				else if((getCurrentSceneName() == "Scene 5 Boss"))
+				{
+					Engine.engine.setGameAttribute("Scene Number", 5);
+				}
+			}
+		});
+		
 		/* ======================== Actor of Type ========================= */
 		addWhenTypeGroupKilledListener(getActorType(2), function(eventActor:Actor, list:Array<Dynamic>):Void
 		{
@@ -127,7 +155,22 @@ class SceneEvents_1 extends SceneScript
 		{
 			if(wrapper.enabled && sameAs(getActor(2), a))
 			{
+				getActor(2).fadeTo(0, 2, Elastic.easeOut);
 				switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("pause_scene") == 1))
+				{
+					engine.pause();
+					switchScene(GameModel.get().scenes.get(6).getID(), createBlindsOut(0.5, Utils.getColorRGB(0,0,0)), createBlindsIn(0.5, Utils.getColorRGB(0,0,0)));
+					Engine.engine.setGameAttribute("pause_scene", 0);
+				}
 			}
 		});
 		

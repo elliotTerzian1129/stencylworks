@@ -118,6 +118,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/1.5x/sprite-39-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1.5x/sprite-41-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/1.5x/sprite-5-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -215,6 +223,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/graphics/1x/sprite-37-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-39-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/1x/sprite-41-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -318,6 +334,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/2x/sprite-39-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/2x/sprite-41-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/2x/sprite-5-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -418,6 +442,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/graphics/3x/sprite-39-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/3x/sprite-41-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/graphics/3x/sprite-5-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -515,6 +547,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/graphics/4x/sprite-37-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-39-0.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/graphics/4x/sprite-41-0.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -671,6 +711,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/data/scene-5.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/data/scene-6.scn");
+		types.push (lime.Assets.AssetType.BINARY);
+		
+		
+		urls.push ("assets/data/scene-6.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		

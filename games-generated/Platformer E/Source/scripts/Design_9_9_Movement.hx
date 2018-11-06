@@ -85,7 +85,7 @@ class Design_9_9_Movement extends ActorScript
 		nameMap.set("Walk Speed Y", "_WalkSpeedY");
 		_WalkSpeedY = 0.0;
 		nameMap.set("Jump", "_Jump");
-		_Jump = 0;
+		_Jump = 0.0;
 		
 	}
 	
@@ -142,22 +142,22 @@ class Design_9_9_Movement extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if(isKeyDown("right"))
+				if(isKeyDown("Right"))
 				{
 					_WalkSpeed = asNumber(1);
 					propertyChanged("_WalkSpeed", _WalkSpeed);
 				}
-				else if(isKeyDown("left"))
+				else if(isKeyDown("Left"))
 				{
 					_WalkSpeed = asNumber(2);
 					propertyChanged("_WalkSpeed", _WalkSpeed);
 				}
-				else if(isKeyDown("down"))
+				else if(isKeyDown("Down"))
 				{
 					_WalkSpeedY = asNumber(1);
 					propertyChanged("_WalkSpeedY", _WalkSpeedY);
 				}
-				else if(isKeyDown("up"))
+				else if(isKeyDown("Up"))
 				{
 					_WalkSpeedY = asNumber(2);
 					propertyChanged("_WalkSpeedY", _WalkSpeedY);

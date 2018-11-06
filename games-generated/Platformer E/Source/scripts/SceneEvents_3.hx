@@ -72,16 +72,69 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_3 extends SceneScript
 {
+	public var _Death:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("Death", "_Death");
+		_Death = 0.0;
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("pause_scene") == 1))
+				{
+					engine.pause();
+					switchScene(GameModel.get().scenes.get(6).getID(), createBlindsOut(0.5, Utils.getColorRGB(0,0,0)), createBlindsIn(0.5, Utils.getColorRGB(0,0,0)));
+					Engine.engine.setGameAttribute("pause_scene", 0);
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(10));
+				g.drawString("" + "Points", 26, 31);
+				g.drawString("" + Engine.engine.getGameAttribute("Points"), 127, 31);
+				if((_Death == 1))
+				{
+					g.setFont(getFont(11));
+					g.drawString("" + "Game Over", 237, 232);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(2), a))
+			{
+				removeTileAt(Std.int(2),Std.int(18),1,"" + "Layer 0");
+				removeTileAt(Std.int(3),Std.int(18),1,"" + "Layer 0");
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(3), a))
+			{
+				getActor(3).fadeTo(0, 2, Elastic.easeOut);
+				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+			}
+		});
 		
 	}
 	

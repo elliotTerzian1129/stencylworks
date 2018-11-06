@@ -15,7 +15,7 @@ class MyAssets implements AssetLoader
 	public static var scaleMode:Int = Universal.NO_SCALING;
 	public static var stageWidth:Int = 640;
 	public static var stageHeight:Int = 480;
-	public static var initSceneID:Int = 4;
+	public static var initSceneID:Int = 5;
 	public static var physicsMode:Int = 0;
 	public static var gameScale:Float = 1.0;
 	public static var gameImageBase:String = "1x";
@@ -48,20 +48,23 @@ class MyAssets implements AssetLoader
 	public function new()
 	{
 		Input.enable();
-		Input.define("up", [nme.ui.Keyboard.UP]);
-		Input.define("down", [nme.ui.Keyboard.DOWN]);
-		Input.define("left", [nme.ui.Keyboard.LEFT]);
-		Input.define("right", [nme.ui.Keyboard.RIGHT]);
-		Input.define("action1", [nme.ui.Keyboard.Z]);
-		Input.define("action2", [nme.ui.Keyboard.X]);
-		Input.define("enter", [nme.ui.Keyboard.ENTER]);
+		Input.define("Up", [nme.ui.Keyboard.UP]);
+		Input.define("Down", [nme.ui.Keyboard.DOWN]);
+		Input.define("Left", [nme.ui.Keyboard.LEFT]);
+		Input.define("Right", [nme.ui.Keyboard.RIGHT]);
+		Input.define("Action 1", [nme.ui.Keyboard.SHIFT]);
+		Input.define("Action 2", [nme.ui.Keyboard.K]);
+		Input.define("Enter", [nme.ui.Keyboard.ENTER]);
+		Input.define("Sound Toggle", [nme.ui.Keyboard.P]);
+		Input.define("Pause", [nme.ui.Keyboard.E]);
+		Input.define("Back", [nme.ui.Keyboard.Q]);
 		
 	}
 	
 	public function loadResources(resourceMap:Map<String,Dynamic>):Void
 	{
 		var i = 0;
-		var increment = 50.0 / Math.max(1, 30);
+		var increment = 50.0 / Math.max(1, 33);
 		
 		resourceMap.set("0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/tileset-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
@@ -104,12 +107,16 @@ class MyAssets implements AssetLoader
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
 		resourceMap.set("37-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-37-0.png", false));
 		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("39-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-39-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
+		resourceMap.set("41-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-41-0.png", false));
+		com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i)); i++;
 	}
 	
 	public function loadScenes(scenesXML:Map<Int,String>):Void
 	{
 		var i = 0;
-		var increment = 10.0 / Math.max(1, 6);
+		var increment = 10.0 / Math.max(1, 7);
 		
 		scenesXML.set(0, "Scene");
 		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
@@ -122,6 +129,8 @@ class MyAssets implements AssetLoader
 		scenesXML.set(4, "Scene 5 Boss");
 		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
 		scenesXML.set(5, "Notes");
+		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
+		scenesXML.set(6, "Pause Screen");
 		com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i)); i++;
 	}
 }
