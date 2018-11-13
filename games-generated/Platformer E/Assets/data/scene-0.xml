@@ -6,8 +6,8 @@
     </layers>
     <joints/>
     <regions>
-        <region b="64" g="64" h="74" id="1" name="Region 1" pts="4,0.0,0.0,0.0,74.0,100.0,74.0,100.0,0.0" r="64" type="box" w="100" x="314" y="380"/>
-        <region b="64" g="64" h="29" id="2" name="Region 2" pts="4,27.0,0.0,27.0,29.0,0.0,29.0,0.0,0.0" r="64" type="box" w="27" x="613" y="353"/>
+        <region b="64" g="64" h="74" id="1" name="Region 1" pts="4,100.0,0.0,100.0,74.0,0.0,74.0,0.0,0.0" r="64" type="box" w="100" x="314" y="380"/>
+        <region b="64" g="64" h="29" id="2" name="Region 2" pts="4,0.0,0.0,0.0,29.0,27.0,29.0,27.0,0.0" r="64" type="box" w="27" x="613" y="353"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -19,6 +19,7 @@
         <actor a="0.0" aid="6" c="false" group="3" id="38" name="Pause Button 6" sx="1.0" sy="1.0" x="579" y="-3" z="0"/>
     </actors>
     <snippets>
+        <s enabled="true" id="32"/>
         <s enabled="true" id="8">
             <prop id="1" list="0" val="0"/>
         </s>

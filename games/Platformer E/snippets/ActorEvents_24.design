@@ -30,7 +30,7 @@
                                     <int id="1" val="Disactivated"/>
                                 </setanim>
                             </group>
-                            <int id="0" val="8"/>
+                            <int id="0" val="25"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
                     </group>

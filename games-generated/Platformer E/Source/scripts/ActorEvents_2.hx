@@ -108,6 +108,18 @@ class ActorEvents_2 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
+				if((Engine.engine.getGameAttribute("Kill Timer Done") == 1))
+				{
+					recycleActor(actor);
+				}
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
 				if((actor.getYVelocity() == -10))
 				{
 					actor.setAnimation("" + "Jumping");

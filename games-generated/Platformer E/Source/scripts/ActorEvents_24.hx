@@ -92,7 +92,7 @@ class ActorEvents_24 extends ActorScript
 					Engine.engine.setGameAttribute("Lever Activation", 1);
 					actor.setAnimation("" + "Activated");
 					playSound(getSound(12));
-					runLater(1000 * 8, function(timeTask:TimedTask):Void
+					runLater(1000 * 25, function(timeTask:TimedTask):Void
 					{
 						stopAllSounds();
 						Engine.engine.setGameAttribute("Lever Activation", 0);

@@ -74,6 +74,7 @@ class Design_9_9_Movement extends ActorScript
 	public var _WalkSpeed:Float;
 	public var _WalkSpeedY:Float;
 	public var _Jump:Float;
+	public var _DoublrJump:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
@@ -86,6 +87,8 @@ class Design_9_9_Movement extends ActorScript
 		_WalkSpeedY = 0.0;
 		nameMap.set("Jump", "_Jump");
 		_Jump = 0.0;
+		nameMap.set("Doublr Jump", "_DoublrJump");
+		_DoublrJump = 0;
 		
 	}
 	
@@ -116,14 +119,38 @@ class Design_9_9_Movement extends ActorScript
 						actor.setYVelocity(-30);
 						_Jump = asNumber(1);
 						propertyChanged("_Jump", _Jump);
+						if(isKeyReleased("Up"))
+						{
+							if(isKeyPressed("Up"))
+							{
+								if((_DoublrJump == 0))
+								{
+									_DoublrJump = asNumber(1);
+									propertyChanged("_DoublrJump", _DoublrJump);
+								}
+								runLater(1000 * 2, function(timeTask:TimedTask):Void
+								{
+									actor.pushInDirection(180, 10);
+								}, actor);
+								runLater(1000 * 0.75, function(timeTask:TimedTask):Void
+								{
+									_Jump = asNumber(0);
+									propertyChanged("_Jump", _Jump);
+									_DoublrJump = asNumber(0);
+									propertyChanged("_DoublrJump", _DoublrJump);
+								}, actor);
+							}
+						}
 						runLater(1000 * 1.5, function(timeTask:TimedTask):Void
 						{
 							actor.pushInDirection(180, 10);
 						}, actor);
-						runLater(1000 * 1, function(timeTask:TimedTask):Void
+						runLater(1000 * 0.75, function(timeTask:TimedTask):Void
 						{
 							_Jump = asNumber(0);
 							propertyChanged("_Jump", _Jump);
+							_DoublrJump = asNumber(0);
+							propertyChanged("_DoublrJump", _DoublrJump);
 						}, actor);
 					}
 				}

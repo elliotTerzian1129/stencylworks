@@ -73,16 +73,19 @@
     </attcats>
     <props/>
     <attributes>
-        <number cid="-1" id="6" name="Secret" save="true" value="0.0"/>
         <number cid="-1" id="7" name="Boss health" save="true" value="0.0"/>
-        <number cid="-1" id="1" name="Hero Y" save="true" value="0.0"/>
-        <number cid="-1" id="3" name="Points" save="true" value="0.0"/>
-        <number cid="-1" id="0" name="Hero X" save="true" value="0.0"/>
+        <number cid="-1" id="11" name="Kill Timer" save="true" value="0.0"/>
         <number cid="-1" id="8" name="Hero Number" save="true" value="0.0"/>
-        <number cid="-1" id="4" name="Lever Activation" save="true" value="0.0"/>
+        <number cid="-1" id="13" name="Kill Timer Done" save="true" value="0.0"/>
         <number cid="-1" id="10" name="pause_scene" save="true" value="0.0"/>
         <number cid="-1" id="2" name="D Death" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Time Points" save="true" value="0.0"/>
+        <number cid="-1" id="12" name="First Key Press" save="true" value="1.0"/>
+        <number cid="-1" id="6" name="Secret" save="true" value="0.0"/>
+        <number cid="-1" id="1" name="Hero Y" save="true" value="0.0"/>
+        <number cid="-1" id="3" name="Points" save="true" value="0.0"/>
+        <number cid="-1" id="0" name="Hero X" save="true" value="0.0"/>
+        <number cid="-1" id="4" name="Lever Activation" save="true" value="0.0"/>
         <number cid="-1" id="9" name="Scene Number" save="true" value="0.0"/>
     </attributes>
     <collisions>

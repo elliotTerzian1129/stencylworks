@@ -2,8 +2,8 @@
 <scene depth="2" desc="" eventsnippetid="0" extheight="1024" extwidth="1344" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="960" id="0" name="Scene 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1280">
     <layers>
         <color-bg blue="255" green="0" red="0"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
@@ -11,7 +11,9 @@
     <actors/>
     <snippets/>
     <terrain>
-        <p pts="4,0.0,640.0,0.0,0.0,1280.0,0.0,1280.0,640.0" x="0.0" y="320.0"/>
+        <p pts="4,160.0,160.0,160.0,0.0,0.0,0.0,0.0,160.0" x="448.0" y="576.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,1280.0,0.0,1280.0,32.0" x="0.0" y="320.0"/>
+        <p pts="4,1280.0,544.0,0.0,544.0,0.0,0.0,1280.0,0.0" x="0.0" y="416.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

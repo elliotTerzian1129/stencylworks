@@ -111,6 +111,15 @@ class SceneEvents_0 extends SceneScript
 			}
 		});
 		
+		/* =========================== Any Key ============================ */
+		addAnyKeyPressedListener(function(event:KeyboardEvent, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				Engine.engine.setGameAttribute("First Key Press", 0);
+			}
+		});
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{

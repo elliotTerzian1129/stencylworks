@@ -30,6 +30,7 @@ import scripts.Design_28_28_AdvancedControls;
 import scripts.ActorEvents_38;
 import scripts.SceneEvents_6;
 import scripts.ActorEvents_40;
+import scripts.Design_32_32_KillTimer;
 
 
 //Force all classes to compile since they aren't statically used.

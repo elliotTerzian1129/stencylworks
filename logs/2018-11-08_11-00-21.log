@@ -1,0 +1,629 @@
+2018-11-08 11:00:21,330 INFO  [main] stencyl.sw.Session: Logfile: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\logs\2018-11-08_11-00-21.log
+2018-11-08 11:00:21,335 INFO  [main] stencyl.sw.Session: OS Name: Windows 10
+2018-11-08 11:00:21,336 INFO  [main] stencyl.sw.Session: OS Version: 10.0 (64-bit)
+2018-11-08 11:00:21,336 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2018-11-08 11:00:21,336 INFO  [main] stencyl.sw.Session: Java Home Environment Variable (JAVA_HOME): not set
+2018-11-08 11:00:21,337 INFO  [main] stencyl.sw.Session: Stencyl Version: 3.4.0.beta4 (b9300)
+2018-11-08 11:00:21,337 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\Users\Eterzian1914\Desktop\stencylworks\
+2018-11-08 11:00:21,338 INFO  [main] stencyl.sw.Session: User Working Directory: C:\Program Files (x86)\Stencyl
+2018-11-08 11:00:21,338 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\Eterzian1914
+2018-11-08 11:00:21,338 INFO  [main] stencyl.sw.Session: System Path: C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Users\Eterzian1914\AppData\Local\Microsoft\WindowsApps;C:\Users\Eterzian1914\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Stencyl\runtimes\jre-win\bin
+2018-11-08 11:00:21,406 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\ETERZI~1\AppData\Local\Temp\stencyl8835735432275433851
+2018-11-08 11:00:21,407 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2018-11-08 11:00:21,413 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2018-11-08 11:00:21,414 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2018-11-08 11:00:21,417 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2018-11-08 11:00:21,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2018-11-08 11:00:21,421 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2018-11-08 11:00:21,422 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2018-11-08 11:00:21,423 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2018-11-08 11:00:21,424 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2018-11-08 11:00:21,426 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2018-11-08 11:00:21,427 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2018-11-08 11:00:21,428 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2018-11-08 11:00:21,428 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2018-11-08 11:00:21,429 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2018-11-08 11:00:21,443 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2018-11-08 11:00:21,445 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2018-11-08 11:00:21,445 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2018-11-08 11:00:21,445 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2018-11-08 11:00:21,446 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2018-11-08 11:00:21,446 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2018-11-08 11:00:21,446 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2018-11-08 11:00:21,447 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2018-11-08 11:00:21,447 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2018-11-08 11:00:21,447 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2018-11-08 11:00:21,448 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2018-11-08 11:00:21,448 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2018-11-08 11:00:21,448 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2018-11-08 11:00:21,449 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2018-11-08 11:00:21,449 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2018-11-08 11:00:21,449 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2018-11-08 11:00:21,450 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2018-11-08 11:00:21,450 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2018-11-08 11:00:21,450 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2018-11-08 11:00:21,451 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2018-11-08 11:00:21,451 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2018-11-08 11:00:21,452 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2018-11-08 11:00:21,452 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2018-11-08 11:00:21,452 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2018-11-08 11:00:21,453 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2018-11-08 11:00:21,453 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2018-11-08 11:00:21,454 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2018-11-08 11:00:21,454 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2018-11-08 11:00:21,455 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2018-11-08 11:00:21,455 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2018-11-08 11:00:21,456 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2018-11-08 11:00:21,456 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2018-11-08 11:00:21,457 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2018-11-08 11:00:21,457 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2018-11-08 11:00:21,457 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2018-11-08 11:00:21,458 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2018-11-08 11:00:21,458 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2018-11-08 11:00:21,460 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2018-11-08 11:00:21,462 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2018-11-08 11:00:21,462 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2018-11-08 11:00:21,463 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2018-11-08 11:00:21,463 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2018-11-08 11:00:21,463 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2018-11-08 11:00:21,464 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2018-11-08 11:00:21,464 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2018-11-08 11:00:21,464 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2018-11-08 11:00:21,465 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2018-11-08 11:00:21,465 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2018-11-08 11:00:21,465 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2018-11-08 11:00:21,466 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2018-11-08 11:00:21,466 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2018-11-08 11:00:21,466 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2018-11-08 11:00:21,467 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2018-11-08 11:00:21,467 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2018-11-08 11:00:21,468 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2018-11-08 11:00:21,468 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2018-11-08 11:00:21,468 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2018-11-08 11:00:21,469 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2018-11-08 11:00:21,469 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2018-11-08 11:00:21,469 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2018-11-08 11:00:21,470 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2018-11-08 11:00:21,473 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2018-11-08 11:00:22,237 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Extension Dependencies: {STENCYL={=stencyl--3.4.0.beta4}, TOOLSET={}, HAXELIB={console=haxelib-console-1.0.0, polygonal-printf=haxelib-polygonal-printf-1.0.0.beta, stencyl-cppia=haxelib-stencyl-cppia-1.0.0, hxcpp=haxelib-hxcpp-3.2.0, swf=haxelib-swf-1.7.4, box2d=haxelib-box2d-1.11.0, svg=haxelib-svg-1.0.8, lime=haxelib-lime-2.9.1, format=haxelib-format-3.1.2, actuate=haxelib-actuate-1.8.6, stencyl=haxelib-stencyl-1.0.0, layout=haxelib-layout-1.1.0, hxtelemetry=haxelib-hxtelemetry-0.3.1, openfl=haxelib-openfl-3.6.1, tilelayer=haxelib-tilelayer-0.2.1, polygonal-ds=haxelib-polygonal-ds-1.4.1, box2d-fake=haxelib-box2d-fake-1.11.0}, JAVA={=java--1.8.0}, ENGINE={}}
+2018-11-08 11:00:22,242 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\extensions: []
+2018-11-08 11:00:22,242 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\extensions: []
+2018-11-08 11:00:22,243 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2018-11-08 11:00:22,243 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions: [C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\ads, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\gamecenter, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\gestures, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\google, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\joystick, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\label, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\native, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\purchases, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\test, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\test-flash, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\engine-extensions\test-native]
+2018-11-08 11:00:22,244 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: ads is a core engine extension. Skip.
+2018-11-08 11:00:22,244 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: gamecenter is a core engine extension. Skip.
+2018-11-08 11:00:22,244 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: gestures is a core engine extension. Skip.
+2018-11-08 11:00:22,245 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: google is not a valid engine extension. Skip.
+2018-11-08 11:00:22,245 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: joystick is a core engine extension. Skip.
+2018-11-08 11:00:22,246 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: label is engine extension: Labels (1.0.0).
+2018-11-08 11:00:22,246 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: native is a core engine extension. Skip.
+2018-11-08 11:00:22,246 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: purchases is a core engine extension. Skip.
+2018-11-08 11:00:22,247 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test is engine extension: Test Extension (1.0.0).
+2018-11-08 11:00:22,248 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test-flash is engine extension: Test Extension (Flash SWF) (1.0.0).
+2018-11-08 11:00:22,248 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: test-native is engine extension: Test Extension (Native) (1.0.0).
+2018-11-08 11:00:22,248 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: [Labels (1.0.0), Test Extension (1.0.0), Test Extension (Flash SWF) (1.0.0), Test Extension (Native) (1.0.0)]
+2018-11-08 11:00:22,250 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2018-11-08 11:00:22,445 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2018-11-08 11:00:22,448 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Silent Authentication.
+2018-11-08 11:00:22,457 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2018-11-08 11:00:22,537 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: user:::plans0
+2018-11-08 11:00:22,538 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\prefs\auth.txt
+2018-11-08 11:00:22,555 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Logged in as: Eterzian1914
+2018-11-08 11:00:22,555 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Usergroup: Registered
+2018-11-08 11:00:22,651 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: 200
+2018-11-08 11:00:24,310 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\test\temp
+2018-11-08 11:00:24,312 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\preview\scripts
+2018-11-08 11:00:24,313 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\preview\game
+2018-11-08 11:00:24,314 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: Platformer E
+2018-11-08 11:00:24,339 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 0
+2018-11-08 11:00:24,347 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 2
+2018-11-08 11:00:24,348 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 4
+2018-11-08 11:00:24,351 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 8
+2018-11-08 11:00:24,355 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 1
+2018-11-08 11:00:24,356 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 2
+2018-11-08 11:00:24,357 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 20
+2018-11-08 11:00:24,358 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 22
+2018-11-08 11:00:24,358 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 24
+2018-11-08 11:00:24,359 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 26
+2018-11-08 11:00:24,360 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 3
+2018-11-08 11:00:24,360 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 4
+2018-11-08 11:00:24,361 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 5
+2018-11-08 11:00:24,361 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 28
+2018-11-08 11:00:24,362 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 31
+2018-11-08 11:00:24,363 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 34
+2018-11-08 11:00:24,363 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 36
+2018-11-08 11:00:24,364 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 38
+2018-11-08 11:00:24,365 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 6
+2018-11-08 11:00:24,366 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading actor-specific snippet. ActorID: 40
+2018-11-08 11:00:24,372 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 40 : Block
+2018-11-08 11:00:24,373 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 41 : Block
+2018-11-08 11:00:24,379 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 8 : Blue Coin
+2018-11-08 11:00:24,379 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 9 : Blue Coin
+2018-11-08 11:00:24,381 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 7 : Death Sound 1
+2018-11-08 11:00:24,381 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 2 : Diver
+2018-11-08 11:00:24,382 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 3 : Diver
+2018-11-08 11:00:24,387 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 20 : evil Blob
+2018-11-08 11:00:24,387 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 21 : evil Blob
+2018-11-08 11:00:24,388 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 11 : Game Over
+2018-11-08 11:00:24,390 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 10 : Gmer
+2018-11-08 11:00:24,390 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 24 : Lever
+2018-11-08 11:00:24,390 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 25 : Lever
+2018-11-08 11:00:24,392 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 18 : Mushroom
+2018-11-08 11:00:24,392 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 30 : Notes Backround
+2018-11-08 11:00:24,406 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 28 : OK Button
+2018-11-08 11:00:24,406 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 29 : OK Button
+2018-11-08 11:00:24,407 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 38 : Pause Button
+2018-11-08 11:00:24,407 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 39 : Pause Button
+2018-11-08 11:00:24,408 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 34 : Question Mark
+2018-11-08 11:00:24,408 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 35 : Question Mark
+2018-11-08 11:00:24,409 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 31 : Rock Boss
+2018-11-08 11:00:24,409 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 32 : Rock Boss
+2018-11-08 11:00:24,410 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 33 : Rocky Cavern
+2018-11-08 11:00:24,412 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 22 : Star Coin
+2018-11-08 11:00:24,412 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 23 : Star Coin
+2018-11-08 11:00:24,413 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 36 : Start Button
+2018-11-08 11:00:24,414 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 37 : Start Button
+2018-11-08 11:00:24,416 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 26 : Time Coin
+2018-11-08 11:00:24,416 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 27 : Time Coin
+2018-11-08 11:00:24,417 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 0 : Underwater Set
+2018-11-08 11:00:24,423 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 4 : Unhappy Pufferfish
+2018-11-08 11:00:24,423 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 5 : Unhappy Pufferfish
+2018-11-08 11:00:24,424 DEBUG [pool-1-thread-1] stencyl.core.engine.sound.ISoundClip: Loading Sound 7
+2018-11-08 11:00:24,424 DEBUG [pool-1-thread-1] stencyl.core.engine.sound.ISoundClip: Loading Sound 18
+2018-11-08 11:00:24,532 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Notes) from: scenes\5.xml
+2018-11-08 11:00:24,541 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Notes) from: scenes\5.xml
+2018-11-08 11:00:24,615 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-11-08 11:00:24,616 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\build\code
+2018-11-08 11:00:24,616 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\test\temp
+2018-11-08 11:00:24,618 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Notes) from: scenes\5.xml
+2018-11-08 11:00:24,693 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Took 379ms
+2018-11-08 11:00:24,957 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Secret
+2018-11-08 11:00:24,976 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Boss health
+2018-11-08 11:00:24,981 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Y
+2018-11-08 11:00:24,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Points
+2018-11-08 11:00:24,991 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero X
+2018-11-08 11:00:24,996 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Number
+2018-11-08 11:00:25,000 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Lever Activation
+2018-11-08 11:00:25,004 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: pause_scene
+2018-11-08 11:00:25,009 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: D Death
+2018-11-08 11:00:25,013 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Time Points
+2018-11-08 11:00:25,017 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Scene Number
+2018-11-08 11:00:25,067 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-11-08 11:00:25,073 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-11-08 11:00:25,076 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-11-08 11:00:25,079 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-11-08 11:00:25,082 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 0
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Underwater Set' to atlas 0
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Diver' to atlas 0
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Unhappy Pufferfish' to atlas 0
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Death Sound 1' to atlas 0
+2018-11-08 11:00:25,526 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Blue Coin' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Gmer' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Game Over' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Mushroom' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'evil Blob' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Star Coin' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Lever' to atlas 0
+2018-11-08 11:00:25,527 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Time Coin' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'OK Button' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Notes Backround' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Rock Boss' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Rocky Cavern' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Question Mark' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Start Button' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Pause Button' to atlas 0
+2018-11-08 11:00:25,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Block' to atlas 0
+2018-11-08 11:00:25,532 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 1
+2018-11-08 11:00:25,534 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 2
+2018-11-08 11:00:25,537 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 3
+2018-11-08 11:00:25,568 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-11-08 11:00:25,569 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 1 (Scene 2) from: scenes\1.xml
+2018-11-08 11:00:25,570 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 2 (Scene 3) from: scenes\2.xml
+2018-11-08 11:00:25,571 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Scene 4) from: scenes\3.xml
+2018-11-08 11:00:25,572 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Scene 5 Boss) from: scenes\4.xml
+2018-11-08 11:00:25,572 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Notes) from: scenes\5.xml
+2018-11-08 11:00:25,573 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 6 (Pause Screen) from: scenes\6.xml
+2018-11-08 11:00:25,611 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Secret
+2018-11-08 11:00:25,615 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Boss health
+2018-11-08 11:00:25,618 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Y
+2018-11-08 11:00:25,621 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Points
+2018-11-08 11:00:25,625 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero X
+2018-11-08 11:00:25,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Hero Number
+2018-11-08 11:00:25,632 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Lever Activation
+2018-11-08 11:00:25,635 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: pause_scene
+2018-11-08 11:00:25,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: D Death
+2018-11-08 11:00:25,641 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Time Points
+2018-11-08 11:00:25,644 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Scene Number
+2018-11-08 11:00:25,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-11-08 11:00:25,674 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-11-08 11:00:25,677 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-11-08 11:00:25,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-11-08 11:00:25,681 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene) from: scenes\0.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 1 (Scene 2) from: scenes\1.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 2 (Scene 3) from: scenes\2.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Scene 4) from: scenes\3.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Scene 5 Boss) from: scenes\4.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Notes) from: scenes\5.xml
+2018-11-08 11:00:25,936 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 6 (Pause Screen) from: scenes\6.xml
+2018-11-08 11:02:34,905 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Close Game
+2018-11-08 11:02:36,003 INFO  [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2018-11-08 11:02:36,003 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Platformer E\game.xml.bak.
+2018-11-08 11:02:37,555 DEBUG [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Writing out local resources.
+2018-11-08 11:02:37,555 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Platformer E\resources\data.xml.bak.
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.FontWriter: Mark font as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.FontWriter: Mark font as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.BackgroundWriter: Skip writing out Background.
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.BackgroundWriter: Mark background as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.BackgroundWriter: Skip writing out Background.
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.BackgroundWriter: Mark background as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2018-11-08 11:02:37,571 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2018-11-08 11:02:37,587 DEBUG [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Writing out scenes.
+2018-11-08 11:02:37,587 DEBUG [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Copying over snippets.
+2018-11-08 11:02:37,602 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Platformer E\snippets\list.xml.bak.
+2018-11-08 11:02:37,821 DEBUG [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Saving block favorites.
+2018-11-08 11:02:37,821 INFO  [pool-1-thread-2] stencyl.sw.io.write.MasterWriter: Done writing game.
+2018-11-08 11:02:37,868 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Resetting workspace.
+2018-11-08 11:02:37,899 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2018-11-08 11:02:39,217 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\test\temp
+2018-11-08 11:02:39,217 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\preview\scripts
+2018-11-08 11:02:39,232 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\preview\game
+2018-11-08 11:02:39,232 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: Timekiller
+2018-11-08 11:02:39,232 DEBUG [pool-1-thread-2] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 0
+2018-11-08 11:02:39,232 DEBUG [pool-1-thread-2] stencyl.core.lib.ResourceList: Initializing... 0 : Grassland
+2018-11-08 11:02:39,248 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:02:39,248 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:02:39,279 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-11-08 11:02:39,279 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\build\code
+2018-11-08 11:02:39,279 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851\sandbox\test\temp
+2018-11-08 11:02:39,279 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:02:39,311 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Took 79ms
+2018-11-08 11:02:39,467 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-11-08 11:02:39,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-11-08 11:02:39,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-11-08 11:02:39,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-11-08 11:02:39,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-11-08 11:02:39,765 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 0
+2018-11-08 11:02:39,765 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Grassland' to atlas 0
+2018-11-08 11:02:39,765 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 1
+2018-11-08 11:02:39,781 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 2
+2018-11-08 11:02:39,781 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 3
+2018-11-08 11:02:39,781 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:02:39,812 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2018-11-08 11:02:39,812 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2018-11-08 11:02:39,812 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2018-11-08 11:02:39,812 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2018-11-08 11:02:39,827 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2018-11-08 11:02:40,030 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:02:42,237 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Loading Closed Resource: Grassland
+2018-11-08 11:02:42,259 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Unable to refresh document (Grassland)
+2018-11-08 11:02:42,274 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland
+2018-11-08 11:02:42,290 DEBUG [pool-1-thread-2] stencyl.sw.app.tasks.OpenResourceTask: Open Took 53ms
+2018-11-08 11:02:42,337 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenResourceTask: Total Took 100ms
+2018-11-08 11:02:44,549 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:03:13,461 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:03:19,262 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:03:30,490 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:03:33,938 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-11-08 11:03:35,247 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland*
+2018-11-08 11:03:36,526 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-11-08 11:03:39,161 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Loading Closed Resource: Scene 1
+2018-11-08 11:03:39,161 DEBUG [pool-1-thread-2] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 11:03:39,239 DEBUG [pool-1-thread-2] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:03:39,442 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Conditions
+2018-11-08 11:03:39,442 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:39,615 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Position
+2018-11-08 11:03:39,615 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:39,865 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Actors
+2018-11-08 11:03:39,865 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:39,912 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Math
+2018-11-08 11:03:39,912 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:39,959 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Getters
+2018-11-08 11:03:39,959 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:39,959 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Getters
+2018-11-08 11:03:39,959 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,017 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Keyboard & Mouse
+2018-11-08 11:03:40,017 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,056 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Triggers
+2018-11-08 11:03:40,056 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,087 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Web
+2018-11-08 11:03:40,087 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,134 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Drawing
+2018-11-08 11:03:40,134 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,212 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Images
+2018-11-08 11:03:40,212 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,243 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Sounds
+2018-11-08 11:03:40,243 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,274 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Basic
+2018-11-08 11:03:40,274 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,290 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Custom
+2018-11-08 11:03:40,290 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,290 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Extensions
+2018-11-08 11:03:40,290 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context [[b]0]
+2018-11-08 11:03:40,290 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Conditions
+2018-11-08 11:03:40,321 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.EditArea: ContextSet for current event: []
+2018-11-08 11:03:40,321 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Conditions
+2018-11-08 11:03:40,321 DEBUG [pool-1-thread-2] stencyl.sw.editors.snippet.designer.palette.Palette: Refreshing with context []
+2018-11-08 11:03:40,415 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Scene 1
+2018-11-08 11:03:40,430 DEBUG [pool-1-thread-2] stencyl.sw.app.tasks.OpenResourceTask: Open Took 1269ms
+2018-11-08 11:03:40,493 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenResourceTask: Total Took 1332ms
+2018-11-08 11:03:42,856 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:03:42,931 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:03:42,931 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:03:59,795 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:04:07,291 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:04:16,637 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:04:30,638 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland*
+2018-11-08 11:04:32,002 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:04:38,400 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:04:42,490 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:04:45,330 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:04:50,957 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-15437254196566258675.png]
+2018-11-08 11:04:51,352 INFO  [Thread-9] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:04:51 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:04:51,352 INFO  [Thread-9] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:04:51,384 INFO  [Thread-9] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:04:51 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:04:51,384 INFO  [Thread-9] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:04:51,384 INFO  [Thread-9] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:05:08,035 DEBUG [Timer-1] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-15437254196566258675.png
+2018-11-08 11:05:09,045 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:05:09,993 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:05:10,511 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:08:57,587 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:00,034 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:03,702 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:05,912 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:07,716 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:12,027 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:16,386 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:16,951 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:18,347 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-17506424778632682783.png]
+2018-11-08 11:09:18,709 INFO  [Thread-12] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:09:18 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:09:18,709 INFO  [Thread-12] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:09:18,740 INFO  [Thread-12] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:09:18 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:09:18,740 INFO  [Thread-12] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:09:18,740 INFO  [Thread-12] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:09:39,436 DEBUG [Timer-2] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-17506424778632682783.png
+2018-11-08 11:09:41,584 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:09:43,920 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-14113788615703696807.png]
+2018-11-08 11:09:44,329 INFO  [Thread-14] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:09:44 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:09:44,329 INFO  [Thread-14] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:09:44,361 INFO  [Thread-14] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:09:44 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:09:44,361 INFO  [Thread-14] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:09:44,361 INFO  [Thread-14] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:09:56,982 DEBUG [Timer-3] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-14113788615703696807.png
+2018-11-08 11:09:58,488 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:01,481 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:03,301 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:11,909 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:13,680 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:15,422 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:18,667 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:20,785 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:23,182 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:27,447 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:31,759 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:33,202 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-14222587721956201451.png]
+2018-11-08 11:10:33,554 INFO  [Thread-16] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:10:33 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:10:33,554 INFO  [Thread-16] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:10:33,585 INFO  [Thread-16] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:10:33 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:10:33,585 INFO  [Thread-16] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:10:33,585 INFO  [Thread-16] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:10:41,230 DEBUG [Timer-4] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-14222587721956201451.png
+2018-11-08 11:10:42,829 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:10:52,097 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-12677324069686938691.png]
+2018-11-08 11:10:52,479 INFO  [Thread-18] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:10:52 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:10:52,479 INFO  [Thread-18] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:10:52,504 INFO  [Thread-18] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:10:52 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:10:52,504 INFO  [Thread-18] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:10:52,504 INFO  [Thread-18] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:11:01,128 DEBUG [Timer-5] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-12677324069686938691.png
+2018-11-08 11:11:02,336 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 11:11:06,677 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-12147287023744485901.png]
+2018-11-08 11:11:07,040 INFO  [Thread-20] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:11:07 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:11:07,040 INFO  [Thread-20] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 11:11:07,071 INFO  [Thread-20] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 11:11:07 AM it.tidalwave.imageio.util.Logger info
+2018-11-08 11:11:07,071 INFO  [Thread-20] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 11:11:07,071 INFO  [Thread-20] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 11:11:13,702 DEBUG [Timer-6] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-12147287023744485901.png
+2018-11-08 11:11:19,849 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Scene 1*
+2018-11-08 11:11:25,354 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:11:26,890 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:11:33,100 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:11:38,368 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:06,388 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:10,449 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:14,107 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:16,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:22,726 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:28,764 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:34,031 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:35,315 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:39,331 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:42,969 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:47,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:48,332 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:50,510 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:53,771 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:56,250 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:12:59,292 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 11:59:32,029 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland*
+2018-11-08 11:59:33,439 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Scene 1*
+2018-11-08 12:00:00,565 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland*
+2018-11-08 12:00:01,850 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:00:32,177 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-12333203166071835863.png]
+2018-11-08 12:00:32,475 INFO  [Thread-23] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:00:32 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:00:32,475 INFO  [Thread-23] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 12:00:32,506 INFO  [Thread-23] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:00:32 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:00:32,506 INFO  [Thread-23] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 12:00:32,506 INFO  [Thread-23] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 12:01:02,217 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:01:13,475 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:01:14,841 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:01:47,768 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:01:51,140 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:02:16,321 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:02:17,603 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:02:18,376 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:02:24,616 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Scene 1*
+2018-11-08 12:02:26,827 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 12:02:37,850 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2018-11-08 12:03:06,842 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland*
+2018-11-08 12:03:08,081 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:03:08,942 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-15404345417469889137.png]
+2018-11-08 12:03:09,313 INFO  [Thread-26] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:03:09 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:03:09,313 INFO  [Thread-26] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 12:03:09,344 INFO  [Thread-26] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:03:09 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:03:09,344 INFO  [Thread-26] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 12:03:09,344 INFO  [Thread-26] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 12:03:50,087 DEBUG [Timer-8] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-15404345417469889137.png
+2018-11-08 12:03:53,504 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:03:55,324 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.tileset.TileGridModel: 1 tile selected.
+2018-11-08 12:03:57,284 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [./runtimes/jre-win/bin/java, -jar, C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\tools\Pencyl.jar, C:\Users\ETERZI~1\AppData\Local\Temp\stencylTemp-15658230543427213708.png]
+2018-11-08 12:03:57,563 INFO  [Thread-28] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:03:57 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:03:57,563 INFO  [Thread-28] stencyl.sw.util.StreamGobbler: [java] INFO: Installing RAWProcessor...
+2018-11-08 12:03:57,594 INFO  [Thread-28] stencyl.sw.util.StreamGobbler: [java] Nov 08, 2018 12:03:57 PM it.tidalwave.imageio.util.Logger info
+2018-11-08 12:03:57,594 INFO  [Thread-28] stencyl.sw.util.StreamGobbler: [java] INFO: Installed RAWProcessor
+2018-11-08 12:03:57,594 INFO  [Thread-28] stencyl.sw.util.StreamGobbler: [java] RAWProcessor succesfully installed
+2018-11-08 12:04:06,317 DEBUG [Timer-9] stencyl.sw.app.filewatcher.ImageSyncTask: Synced image: stencylTemp-15658230543427213708.png
+2018-11-08 12:04:08,182 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Scene 1*
+2018-11-08 12:04:28,629 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:28,629 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:28,723 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 608 Layer 0 true]
+2018-11-08 12:04:29,413 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:29,413 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:29,413 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:30,165 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:30,165 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:30,259 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 512, 608 Layer 0 true]
+2018-11-08 12:04:30,462 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:30,462 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:30,462 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:30,777 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:30,777 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:30,887 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 544, 608 Layer 0 true]
+2018-11-08 12:04:31,074 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:31,074 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:31,074 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:31,388 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:31,403 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 544, 640 Layer 0 true]
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y,L: 544, 640 Layer 0 true] by (0,0)
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2018-11-08 12:04:31,482 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2018-11-08 12:04:31,690 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:31,690 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Removing Joints from group
+2018-11-08 12:04:31,690 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:31,690 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:31,969 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:31,969 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:32,079 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 512, 640 Layer 0 true]
+2018-11-08 12:04:32,745 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:32,745 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:32,746 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:32,941 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:32,941 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:33,050 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 640 Layer 0 true]
+2018-11-08 12:04:33,253 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:33,253 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:33,253 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:33,583 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:33,583 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:33,677 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 672 Layer 0 true]
+2018-11-08 12:04:33,834 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:33,834 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:33,835 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:34,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:34,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 512, 672 Layer 0 true]
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y,L: 512, 672 Layer 0 true] by (0,0)
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2018-11-08 12:04:34,274 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2018-11-08 12:04:34,446 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:34,446 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Removing Joints from group
+2018-11-08 12:04:34,446 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:34,446 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:04:34,821 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2018-11-08 12:04:34,821 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2018-11-08 12:04:34,932 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 544, 672 Layer 0 true]
+2018-11-08 12:04:35,260 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2018-11-08 12:04:35,260 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2018-11-08 12:04:35,260 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Commit Delete Selection
+2018-11-08 12:20:55,283 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Close Game
+2018-11-08 12:20:56,663 INFO  [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2018-11-08 12:20:56,698 DEBUG [pool-1-thread-4] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\game.xml.bak.
+2018-11-08 12:20:58,200 DEBUG [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Writing out local resources.
+2018-11-08 12:20:58,215 DEBUG [pool-1-thread-4] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\data.xml.bak.
+2018-11-08 12:20:58,231 DEBUG [pool-1-thread-4] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 12:20:58,231 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Writing out Tileset to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\0.png
+2018-11-08 12:20:58,247 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Writing out Tileset to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\0@1.5x.png
+2018-11-08 12:20:58,262 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Writing out Tileset to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\0@2x.png
+2018-11-08 12:20:58,293 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Writing out Tileset to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\0@3x.png
+2018-11-08 12:20:58,340 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Writing out Tileset to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\resources\0@4x.png
+2018-11-08 12:20:58,403 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2018-11-08 12:20:58,403 DEBUG [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Writing out scenes.
+2018-11-08 12:20:58,418 DEBUG [pool-1-thread-4] stencyl.sw.editors.scene.SceneRenderer: Saving thumbnail: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\scenes\0.png
+2018-11-08 12:20:58,418 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.SceneWriter: Writing terrain.
+2018-11-08 12:20:58,465 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.SceneWriter: Terrain processing took: 0ms
+2018-11-08 12:20:58,497 DEBUG [pool-1-thread-4] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 0 (Scene 1) from: scenes\0.xml
+2018-11-08 12:20:58,497 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.ScenesWriter: Writing out Scene Scene 1
+2018-11-08 12:20:58,497 DEBUG [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Copying over snippets.
+2018-11-08 12:20:58,512 DEBUG [pool-1-thread-4] stencyl.sw.util.FileHelper: Saving backup file C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\snippets\list.xml.bak.
+2018-11-08 12:20:58,512 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Copy from opened to disk: SceneEvents_0
+2018-11-08 12:20:58,512 DEBUG [pool-1-thread-4] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\behavior-hx\SceneEvents_0.hx
+2018-11-08 12:20:58,512 DEBUG [pool-1-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Copied to: C:\Users\Eterzian1914\Desktop\stencylworks\stencylworks\games\Timekiller\snippets\SceneEvents_0.design
+2018-11-08 12:20:58,512 DEBUG [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Saving block favorites.
+2018-11-08 12:20:58,512 INFO  [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Done writing game.
+2018-11-08 12:20:58,560 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Resetting workspace.
+2018-11-08 12:20:58,567 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Grassland
+2018-11-08 12:20:58,567 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Closed Document: Scene 10
+2018-11-08 12:20:58,577 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2018-11-08 12:20:58,577 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Closed Document: Grassland0
+2018-11-08 12:20:58,624 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2018-11-08 12:21:01,352 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2018-11-08 12:21:01,352 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2018-11-08 12:21:01,414 OFF   [Thread-30] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "neko.exe" not found.
+2018-11-08 12:21:01,430 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,430 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2018-11-08 12:21:01,477 OFF   [Thread-31] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "adb.exe" not found.
+2018-11-08 12:21:01,493 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,493 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2018-11-08 12:21:01,539 OFF   [Thread-32] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "arm-linux-androideabi-g++.exe" not found.
+2018-11-08 12:21:01,539 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,539 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2018-11-08 12:21:01,602 OFF   [Thread-33] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "cc1plus.exe" not found.
+2018-11-08 12:21:01,602 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,602 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2018-11-08 12:21:01,664 OFF   [Thread-34] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "tail.exe" not found.
+2018-11-08 12:21:01,664 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,664 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2018-11-08 12:21:01,726 OFF   [Thread-35] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "ios-sim.exe" not found.
+2018-11-08 12:21:01,730 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2018-11-08 12:21:01,731 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying extensions.
+2018-11-08 12:21:01,731 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Performing final close.
+2018-11-08 12:21:01,737 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Exiting...
+2018-11-08 12:21:01,737 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying Temporary Sandbox.
+2018-11-08 12:21:01,737 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Eterzian1914\AppData\Local\Temp\stencyl8835735432275433851

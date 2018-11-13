@@ -141,4 +141,15 @@
         </step>
     </group>
     <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <event-key-any-press-release comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <set-game-val-12 comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                </set-game-val-12>
+            </group>
+            <int id="0" val="0"/>
+        </event-key-any-press-release>
+    </group>
+    <group eventID="9" id="-1"/>
 </groups>
