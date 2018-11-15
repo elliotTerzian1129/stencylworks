@@ -4,4 +4,26 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="1" attachedevent="true" class="scripts.ActorEvents_1" classname="scripts.ActorEvents_1" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_1" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Up 1" enabled="true" id="1" name="event-key-press-release" order="1" repeats="false"/>
+            <event displayName="Down 1" enabled="true" id="2" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Left 1" enabled="true" id="3" name="event-key-press-release" order="5" repeats="true"/>
+            <event displayName="Right 1" enabled="true" id="4" name="event-key-press-release" order="7" repeats="true"/>
+            <event displayName="Up 2" enabled="true" id="5" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Down 2" enabled="true" id="6" name="event-key-press-release" order="4" repeats="true"/>
+            <event displayName="Left 2" enabled="true" id="7" name="event-key-press-release" order="6" repeats="true"/>
+            <event displayName="Right 2" enabled="true" id="8" name="event-key-press-release" order="8" repeats="false"/>
+            <event displayName="Cling Fix" enabled="true" id="9" name="event-collide-actortogroup" order="9" repeats="true"/>
+            <event displayName="Mine Logic" enabled="true" id="10" name="event-key-press-release" order="10" repeats="true"/>
+            <event displayName="Coordinate Identifier" enabled="true" id="11" name="step" order="11" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="3" attachedevent="true" class="scripts.ActorEvents_3" classname="scripts.ActorEvents_3" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_3" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+        </events>
+    </snippet>
 </pack>

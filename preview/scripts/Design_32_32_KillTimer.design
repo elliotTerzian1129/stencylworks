@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <int id="0" val="Time"/>
+                    <int id="1" val="288"/>
+                    <int id="2" val="0"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="60">
+                    <get-game-val-11 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="400"/>
+                    <int id="2" val="0"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <event-key-any-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="3" id="-1">
+                        <set-game-val-11 comment="false" x="37" y="77">
+                            <int id="0" val="1000"/>
+                        </set-game-val-11>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="0"/>
+        </event-key-any-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="4" id="-1">
+                        <set-game-val-11 comment="false" x="37" y="72">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-11>
+                        <if comment="false" x="37" y="102">
+                            <group eventID="4" id="-1">
+                                <if comment="false" x="48" y="132">
+                                    <group eventID="4" id="-1">
+                                        <set-val-32-1 comment="false" x="59" y="162">
+                                            <int id="0" val="1"/>
+                                        </set-val-32-1>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <scenename comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Scene 5 Boss"/>
+                                    </eq>
+                                </if>
+                                <else comment="false" x="48" y="194">
+                                    <group eventID="4" id="-1">
+                                        <set-game-val-13 comment="false" x="59" y="214">
+                                            <int id="0" val="1"/>
+                                        </set-game-val-13>
+                                    </group>
+                                </else>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>
